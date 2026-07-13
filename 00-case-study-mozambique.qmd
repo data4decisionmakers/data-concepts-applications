@@ -1,0 +1,139 @@
+---
+output-file: case_study_mozambique.html
+---
+
+# Case Study: Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries
+
+## Overview
+
+The COVID-19 pandemic exposed how strongly economic resilience depends on trustworthy public debt data. For low- and middle-income countries, incomplete or delayed information about government borrowing can weaken fiscal planning, complicate negotiations with creditors, and reduce public accountability. The experience of Mozambique, where previously undisclosed public debt became a major national and international concern, illustrates the risks that arise when debt information is fragmented, opaque, or poorly governed.
+
+This case examines public debt data as a data governance challenge. It focuses on the institutions, rules, technical systems, and accountability mechanisms needed to ensure that debt data are complete, timely, comparable, secure, and accessible to the people and organizations that rely on them.
+
+## The Data Governance Problem
+
+Public debt data may be distributed across ministries, central banks, debt management offices, state-owned enterprises, and public investment agencies. When these institutions use different definitions, reporting schedules, or information systems, governments may not have a complete view of their financial obligations.
+
+Weak governance can create several risks:
+
+- public entities may borrow without effective central oversight;
+- liabilities may be omitted from official statistics;
+- creditors may assess risk using incomplete information;
+- citizens and legislatures may be unable to scrutinize borrowing decisions; and
+- policy makers may make fiscal decisions without understanding the full cost and risk of the debt portfolio.
+
+These risks became more serious during the pandemic. Many lower-income countries entered the crisis with high debt burdens and then faced pressure to borrow more to protect health systems, support households, and stabilize economies. At the same time, creditor relationships and debt instruments were becoming more complex, making consistent reporting and oversight increasingly important.
+
+## Institutional Landscape
+
+Debt data governance operates across several levels.
+
+### National institutions
+
+National governments are responsible for authorizing, recording, monitoring, and reporting public debt. Key actors may include:
+
+- ministries of finance;
+- public debt management offices;
+- central banks;
+- national audit institutions;
+- parliaments;
+- state-owned enterprises; and
+- statistical agencies.
+
+Effective governance requires these institutions to have clear mandates and well-defined responsibilities. A debt management office, for example, must have the legal authority to collect information from all public entities that can create liabilities for the state.
+
+### International institutions
+
+The World Bank and the International Monetary Fund play major roles in the global debt data ecosystem. Their functions include:
+
+- developing statistical and reporting standards;
+- maintaining international debt databases;
+- assessing national debt management systems;
+- providing technical assistance;
+- supporting institutional capacity building; and
+- promoting transparency among both borrowers and lenders.
+
+The Group of Twenty also influences the international framework through initiatives such as the Debt Service Suspension Initiative, which was introduced to help eligible countries manage debt-service pressures during the pandemic.
+
+### Creditors and lenders
+
+Creditors are also data governance actors. Bilateral lenders, multilateral institutions, commercial banks, and bondholders affect the quality of the global debt information system through the terms they use, the data they disclose, and the reporting practices they require. Debt transparency therefore depends on responsible behavior by both borrowers and lenders.
+
+### Citizens and oversight bodies
+
+Citizens, civil society organizations, journalists, and legislatures use debt data to evaluate whether public borrowing is lawful, affordable, and aligned with public priorities. Their ability to perform this oversight depends on whether debt information is released in understandable and usable formats.
+
+## Core Elements of a Strong Debt Data Governance Framework
+
+### 1. Harmonized definitions and standards
+
+Governments need common definitions for concepts such as public debt, publicly guaranteed debt, contingent liabilities, arrears, and state-owned enterprise borrowing. Internationally harmonized standards make data more comparable across countries and reduce the possibility that obligations are excluded because of inconsistent classifications.
+
+### 2. Clear legal authority and accountability
+
+A strong legal framework should identify:
+
+- which institutions may borrow on behalf of the state;
+- who must report liabilities;
+- which body maintains the official debt record;
+- how borrowing is approved and audited; and
+- what sanctions apply when reporting rules are not followed.
+
+Legal rules should also address conflicts of interest, internal controls, and coordination between debt management, budgeting, fiscal policy, and financial supervision.
+
+### 3. Integrated data systems
+
+A functional debt recording and management system should produce accurate, timely, complete, and reliable information. It should also connect with other government systems, including budget, treasury, procurement, and state-owned enterprise reporting platforms.
+
+Interoperability is especially important. When systems cannot exchange data, officials may rely on manual reconciliation, increasing the likelihood of delays and errors.
+
+### 4. Security and data protection
+
+Debt systems contain sensitive financial and contractual information. They require controls for user access, data integrity, backup, audit trails, and protection from unauthorized modification. Security should protect confidential information without becoming a justification for withholding data that should be public.
+
+### 5. Open and usable dissemination
+
+Transparency requires more than publishing large technical reports. Debt information should be released regularly in formats that different users can understand and analyze. Useful publication practices may include:
+
+- summary dashboards for citizens;
+- machine-readable datasets for researchers;
+- detailed reports for investors and oversight institutions; and
+- clear metadata explaining definitions, coverage, and revision practices.
+
+### 6. Institutional capacity
+
+Good systems cannot compensate for a lack of skilled staff. Governments need professionals who can record transactions, evaluate risk, manage databases, interpret financial instruments, and communicate findings. Retaining these staff requires training, clear career paths, and adequate compensation.
+
+## The Mozambique Lesson
+
+Mozambique demonstrates why debt transparency is not merely a technical reporting issue. When debt obligations are not fully disclosed, the consequences can extend beyond government accounting. Hidden or poorly governed borrowing can damage public trust, reduce access to finance, trigger disputes with creditors, and shift financial burdens to citizens who had little opportunity to scrutinize the original decisions.
+
+The case also shows that data failures usually reflect institutional weaknesses. Missing debt data may result from fragmented authority, weak reporting requirements, limited audit powers, poor coordination, or incentives to conceal liabilities. Improving data quality therefore requires reform of institutions and governance processes, not only new software.
+
+## Application to the Global Data Governance Landscape
+
+This case illustrates several broader principles of data governance.
+
+First, data quality is produced by institutions. Accurate information depends on rules, incentives, responsibilities, and enforcement mechanisms.
+
+Second, governance is distributed. No single organization controls the entire debt data lifecycle. National agencies, international institutions, lenders, auditors, and citizens all contribute to the production, validation, and use of debt information.
+
+Third, standards create interoperability. Shared definitions and reporting practices allow debt data to move across organizations and support international comparison.
+
+Fourth, transparency and security must be balanced. Some contractual details may require protection, but aggregate debt obligations, fiscal risks, and repayment terms must be visible enough to support accountability.
+
+Finally, data governance has direct social consequences. Poor debt data can contribute to fiscal crises that affect public services, poverty reduction, and long-term development.
+
+## Discussion Questions
+
+1. Which institution should be ultimately accountable for maintaining a complete national debt record?
+2. How can governments require state-owned enterprises and other public bodies to report liabilities consistently?
+3. What responsibilities should creditors have for disclosing loan terms and validating debt records?
+4. How should debt data be presented differently to policy makers, investors, researchers, and citizens?
+5. What indicators could be used to assess whether a country's debt data governance framework is effective?
+6. Which reforms should take priority in a country with weak legal authority, fragmented systems, and limited staff capacity?
+7. How does the Mozambique case demonstrate the relationship between data governance, public accountability, and economic development?
+
+## Key Takeaway
+
+Public debt transparency depends on an ecosystem of laws, institutions, standards, technologies, and skilled people. A credible debt data governance framework enables governments to understand their obligations, creditors to assess risk, and citizens to hold public institutions accountable. In the context of global economic shocks, these capabilities are essential for sustainable borrowing and responsible public financial management.

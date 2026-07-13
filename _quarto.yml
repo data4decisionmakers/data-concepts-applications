@@ -1,6 +1,10 @@
 project:
   type: book
   output-dir: _site
+  render:
+    - "*.qmd"
+    - "!LICENSE.md"
+    - "!NEWS.md"
 
 book:
   title: "Data for Decision Makers: Data Concepts and Applications"
@@ -33,6 +37,9 @@ book:
         - 05-case-study-three.qmd
         - 06-case-study-four.qmd
         - 07-case-study-five.qmd
+        - 00-case-study-india.qmd
+        - 00-case-study-mozambique.qmd
+        - 00-case-study-singapore.qmd
     - part: Data Management
       chapters:
         - 08-data-security.qmd
