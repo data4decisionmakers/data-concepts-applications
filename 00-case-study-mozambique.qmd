@@ -2,7 +2,7 @@
 output-file: case_study_mozambique.html
 ---
 
-# Case Study: Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries
+# Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries
 
 ## Overview
 

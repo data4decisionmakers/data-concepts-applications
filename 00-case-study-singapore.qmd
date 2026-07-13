@@ -2,7 +2,7 @@
 output-file: case_study_singapore.html
 ---
 
-# Case Study: Singapore's Smart Nation Initiative and the Governance of a Data-Driven State
+# Singapore's Smart Nation Initiative and the Governance of a Data-Driven State
 
 ## Overview
 
