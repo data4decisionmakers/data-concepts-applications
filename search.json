@@ -496,210 +496,210 @@
   {
     "objectID": "case_study_mozambique.html",
     "href": "case_study_mozambique.html",
-    "title": "9  Case Study: Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries",
+    "title": "9  Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries",
     "section": "",
     "text": "9.1 Overview\nThe COVID-19 pandemic exposed how strongly economic resilience depends on trustworthy public debt data. For low- and middle-income countries, incomplete or delayed information about government borrowing can weaken fiscal planning, complicate negotiations with creditors, and reduce public accountability. The experience of Mozambique, where previously undisclosed public debt became a major national and international concern, illustrates the risks that arise when debt information is fragmented, opaque, or poorly governed.\nThis case examines public debt data as a data governance challenge. It focuses on the institutions, rules, technical systems, and accountability mechanisms needed to ensure that debt data are complete, timely, comparable, secure, and accessible to the people and organizations that rely on them.",
     "crumbs": [
       "Data Case Studies",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Case Study: Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries</span>"
     ]
   },
   {
     "objectID": "case_study_mozambique.html#the-data-governance-problem",
     "href": "case_study_mozambique.html#the-data-governance-problem",
-    "title": "9  Case Study: Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries",
+    "title": "9  Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries",
     "section": "9.2 The Data Governance Problem",
     "text": "9.2 The Data Governance Problem\nPublic debt data may be distributed across ministries, central banks, debt management offices, state-owned enterprises, and public investment agencies. When these institutions use different definitions, reporting schedules, or information systems, governments may not have a complete view of their financial obligations.\nWeak governance can create several risks:\n\npublic entities may borrow without effective central oversight;\nliabilities may be omitted from official statistics;\ncreditors may assess risk using incomplete information;\ncitizens and legislatures may be unable to scrutinize borrowing decisions; and\npolicy makers may make fiscal decisions without understanding the full cost and risk of the debt portfolio.\n\nThese risks became more serious during the pandemic. Many lower-income countries entered the crisis with high debt burdens and then faced pressure to borrow more to protect health systems, support households, and stabilize economies. At the same time, creditor relationships and debt instruments were becoming more complex, making consistent reporting and oversight increasingly important.",
     "crumbs": [
       "Data Case Studies",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Case Study: Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries</span>"
     ]
   },
   {
     "objectID": "case_study_mozambique.html#institutional-landscape",
     "href": "case_study_mozambique.html#institutional-landscape",
-    "title": "9  Case Study: Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries",
+    "title": "9  Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries",
     "section": "9.3 Institutional Landscape",
     "text": "9.3 Institutional Landscape\nDebt data governance operates across several levels.\n\n9.3.1 National institutions\nNational governments are responsible for authorizing, recording, monitoring, and reporting public debt. Key actors may include:\n\nministries of finance;\npublic debt management offices;\ncentral banks;\nnational audit institutions;\nparliaments;\nstate-owned enterprises; and\nstatistical agencies.\n\nEffective governance requires these institutions to have clear mandates and well-defined responsibilities. A debt management office, for example, must have the legal authority to collect information from all public entities that can create liabilities for the state.\n\n\n9.3.2 International institutions\nThe World Bank and the International Monetary Fund play major roles in the global debt data ecosystem. Their functions include:\n\ndeveloping statistical and reporting standards;\nmaintaining international debt databases;\nassessing national debt management systems;\nproviding technical assistance;\nsupporting institutional capacity building; and\npromoting transparency among both borrowers and lenders.\n\nThe Group of Twenty also influences the international framework through initiatives such as the Debt Service Suspension Initiative, which was introduced to help eligible countries manage debt-service pressures during the pandemic.\n\n\n9.3.3 Creditors and lenders\nCreditors are also data governance actors. Bilateral lenders, multilateral institutions, commercial banks, and bondholders affect the quality of the global debt information system through the terms they use, the data they disclose, and the reporting practices they require. Debt transparency therefore depends on responsible behavior by both borrowers and lenders.\n\n\n9.3.4 Citizens and oversight bodies\nCitizens, civil society organizations, journalists, and legislatures use debt data to evaluate whether public borrowing is lawful, affordable, and aligned with public priorities. Their ability to perform this oversight depends on whether debt information is released in understandable and usable formats.",
     "crumbs": [
       "Data Case Studies",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Case Study: Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries</span>"
     ]
   },
   {
     "objectID": "case_study_mozambique.html#core-elements-of-a-strong-debt-data-governance-framework",
     "href": "case_study_mozambique.html#core-elements-of-a-strong-debt-data-governance-framework",
-    "title": "9  Case Study: Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries",
+    "title": "9  Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries",
     "section": "9.4 Core Elements of a Strong Debt Data Governance Framework",
     "text": "9.4 Core Elements of a Strong Debt Data Governance Framework\n\n9.4.1 1. Harmonized definitions and standards\nGovernments need common definitions for concepts such as public debt, publicly guaranteed debt, contingent liabilities, arrears, and state-owned enterprise borrowing. Internationally harmonized standards make data more comparable across countries and reduce the possibility that obligations are excluded because of inconsistent classifications.\n\n\n9.4.2 2. Clear legal authority and accountability\nA strong legal framework should identify:\n\nwhich institutions may borrow on behalf of the state;\nwho must report liabilities;\nwhich body maintains the official debt record;\nhow borrowing is approved and audited; and\nwhat sanctions apply when reporting rules are not followed.\n\nLegal rules should also address conflicts of interest, internal controls, and coordination between debt management, budgeting, fiscal policy, and financial supervision.\n\n\n9.4.3 3. Integrated data systems\nA functional debt recording and management system should produce accurate, timely, complete, and reliable information. It should also connect with other government systems, including budget, treasury, procurement, and state-owned enterprise reporting platforms.\nInteroperability is especially important. When systems cannot exchange data, officials may rely on manual reconciliation, increasing the likelihood of delays and errors.\n\n\n9.4.4 4. Security and data protection\nDebt systems contain sensitive financial and contractual information. They require controls for user access, data integrity, backup, audit trails, and protection from unauthorized modification. Security should protect confidential information without becoming a justification for withholding data that should be public.\n\n\n9.4.5 5. Open and usable dissemination\nTransparency requires more than publishing large technical reports. Debt information should be released regularly in formats that different users can understand and analyze. Useful publication practices may include:\n\nsummary dashboards for citizens;\nmachine-readable datasets for researchers;\ndetailed reports for investors and oversight institutions; and\nclear metadata explaining definitions, coverage, and revision practices.\n\n\n\n9.4.6 6. Institutional capacity\nGood systems cannot compensate for a lack of skilled staff. Governments need professionals who can record transactions, evaluate risk, manage databases, interpret financial instruments, and communicate findings. Retaining these staff requires training, clear career paths, and adequate compensation.",
     "crumbs": [
       "Data Case Studies",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Case Study: Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries</span>"
     ]
   },
   {
     "objectID": "case_study_mozambique.html#the-mozambique-lesson",
     "href": "case_study_mozambique.html#the-mozambique-lesson",
-    "title": "9  Case Study: Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries",
+    "title": "9  Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries",
     "section": "9.5 The Mozambique Lesson",
     "text": "9.5 The Mozambique Lesson\nMozambique demonstrates why debt transparency is not merely a technical reporting issue. When debt obligations are not fully disclosed, the consequences can extend beyond government accounting. Hidden or poorly governed borrowing can damage public trust, reduce access to finance, trigger disputes with creditors, and shift financial burdens to citizens who had little opportunity to scrutinize the original decisions.\nThe case also shows that data failures usually reflect institutional weaknesses. Missing debt data may result from fragmented authority, weak reporting requirements, limited audit powers, poor coordination, or incentives to conceal liabilities. Improving data quality therefore requires reform of institutions and governance processes, not only new software.",
     "crumbs": [
       "Data Case Studies",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Case Study: Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries</span>"
     ]
   },
   {
     "objectID": "case_study_mozambique.html#application-to-the-global-data-governance-landscape",
     "href": "case_study_mozambique.html#application-to-the-global-data-governance-landscape",
-    "title": "9  Case Study: Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries",
+    "title": "9  Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries",
     "section": "9.6 Application to the Global Data Governance Landscape",
     "text": "9.6 Application to the Global Data Governance Landscape\nThis case illustrates several broader principles of data governance.\nFirst, data quality is produced by institutions. Accurate information depends on rules, incentives, responsibilities, and enforcement mechanisms.\nSecond, governance is distributed. No single organization controls the entire debt data lifecycle. National agencies, international institutions, lenders, auditors, and citizens all contribute to the production, validation, and use of debt information.\nThird, standards create interoperability. Shared definitions and reporting practices allow debt data to move across organizations and support international comparison.\nFourth, transparency and security must be balanced. Some contractual details may require protection, but aggregate debt obligations, fiscal risks, and repayment terms must be visible enough to support accountability.\nFinally, data governance has direct social consequences. Poor debt data can contribute to fiscal crises that affect public services, poverty reduction, and long-term development.",
     "crumbs": [
       "Data Case Studies",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Case Study: Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries</span>"
     ]
   },
   {
     "objectID": "case_study_mozambique.html#discussion-questions",
     "href": "case_study_mozambique.html#discussion-questions",
-    "title": "9  Case Study: Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries",
+    "title": "9  Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries",
     "section": "9.7 Discussion Questions",
     "text": "9.7 Discussion Questions\n\nWhich institution should be ultimately accountable for maintaining a complete national debt record?\nHow can governments require state-owned enterprises and other public bodies to report liabilities consistently?\nWhat responsibilities should creditors have for disclosing loan terms and validating debt records?\nHow should debt data be presented differently to policy makers, investors, researchers, and citizens?\nWhat indicators could be used to assess whether a country’s debt data governance framework is effective?\nWhich reforms should take priority in a country with weak legal authority, fragmented systems, and limited staff capacity?\nHow does the Mozambique case demonstrate the relationship between data governance, public accountability, and economic development?",
     "crumbs": [
       "Data Case Studies",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Case Study: Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries</span>"
     ]
   },
   {
     "objectID": "case_study_mozambique.html#key-takeaway",
     "href": "case_study_mozambique.html#key-takeaway",
-    "title": "9  Case Study: Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries",
+    "title": "9  Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries",
     "section": "9.8 Key Takeaway",
     "text": "9.8 Key Takeaway\nPublic debt transparency depends on an ecosystem of laws, institutions, standards, technologies, and skilled people. A credible debt data governance framework enables governments to understand their obligations, creditors to assess risk, and citizens to hold public institutions accountable. In the context of global economic shocks, these capabilities are essential for sustainable borrowing and responsible public financial management.",
     "crumbs": [
       "Data Case Studies",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Case Study: Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries</span>"
     ]
   },
   {
     "objectID": "case_study_singapore.html",
     "href": "case_study_singapore.html",
-    "title": "10  Case Study: Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State",
+    "title": "10  Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State",
     "section": "",
     "text": "10.1 Overview\nSingapore’s Smart Nation initiative provides a useful case for examining how governments organize institutions, policies, infrastructure, and public participation around the use of data and digital technologies. Launched in 2014 and refreshed as Smart Nation 2.0 in 2024, the initiative is presented by the Singapore government as a whole-of-nation effort to build a thriving digital future for all.(“Smart Nation Singapore,” n.d.)\nThe case is especially relevant to the study of data governance because Smart Nation is not a single technology project. It is a national framework that brings together digital identity, public services, artificial intelligence, cybersecurity, digital infrastructure, citizen engagement, and economic development. It therefore illustrates how data governance operates across institutions and sectors rather than within a single database or agency.",
     "crumbs": [
       "Data Case Studies",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Case Study: Singapore's Smart Nation Initiative and the Governance of a Data-Driven State</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Singapore's Smart Nation Initiative and the Governance of a Data-Driven State</span>"
     ]
   },
   {
     "objectID": "case_study_singapore.html#background",
     "href": "case_study_singapore.html#background",
-    "title": "10  Case Study: Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State",
+    "title": "10  Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State",
     "section": "10.2 Background",
     "text": "10.2 Background\nSingapore’s digital transformation developed over several decades. Earlier milestones included the computerization of public administration, the creation of nationwide broadband infrastructure, and the introduction of Singpass as a national digital identity system. In 2014, the government formally launched the Smart Nation initiative. GovTech was established in 2016 to develop government digital services and supporting infrastructure, and the Smart Nation and Digital Government Office was created in 2017 to coordinate national digital transformation.\nThe initiative initially emphasized four connected areas:\n\ndigital society;\ndigital economy;\ndigital security; and\ndigital government.\n\nSmart Nation 1.0 focused on building capabilities, expanding digital adoption, and applying technology in fields such as health, transport, education, finance, infrastructure, and the environment.\nIn 2024, Singapore introduced Smart Nation 2.0. The refreshed vision places greater emphasis on the social outcomes and risks associated with digital transformation. Its three goals are:\n\nTrust — building digital systems and spaces that are safe, reliable, and secure;\nGrowth — using technology to create opportunities for people and businesses; and\nCommunity — ensuring that digital development strengthens social connection and benefits people across society.",
     "crumbs": [
       "Data Case Studies",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Case Study: Singapore's Smart Nation Initiative and the Governance of a Data-Driven State</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Singapore's Smart Nation Initiative and the Governance of a Data-Driven State</span>"
     ]
   },
   {
     "objectID": "case_study_singapore.html#the-data-governance-challenge",
     "href": "case_study_singapore.html#the-data-governance-challenge",
-    "title": "10  Case Study: Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State",
+    "title": "10  Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State",
     "section": "10.3 The Data Governance Challenge",
     "text": "10.3 The Data Governance Challenge\nSmart Nation depends on large volumes of data moving between citizens, public agencies, businesses, infrastructure operators, and digital platforms. These data may support identity verification, service delivery, transport planning, health services, payments, urban management, artificial intelligence, and public policy.\nThis creates several governance questions:\n\nWhich institutions are responsible for collecting and managing data?\nHow should government agencies share data while protecting confidentiality?\nWhat technical and legal safeguards are needed to maintain trust?\nHow can systems be made interoperable across the public sector?\nHow should citizens participate in the design of digital services?\nHow can the benefits of data-driven government be distributed fairly?\nHow should the state govern emerging technologies such as artificial intelligence?\n\nThe Smart Nation case shows that data governance is not limited to privacy compliance. It also includes institutional coordination, cybersecurity, infrastructure resilience, service design, inclusion, transparency, accountability, and public legitimacy.",
     "crumbs": [
       "Data Case Studies",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Case Study: Singapore's Smart Nation Initiative and the Governance of a Data-Driven State</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Singapore's Smart Nation Initiative and the Governance of a Data-Driven State</span>"
     ]
   },
   {
     "objectID": "case_study_singapore.html#institutional-landscape",
     "href": "case_study_singapore.html#institutional-landscape",
-    "title": "10  Case Study: Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State",
+    "title": "10  Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State",
     "section": "10.4 Institutional Landscape",
     "text": "10.4 Institutional Landscape\n\n10.4.1 Ministry of Digital Development and Information\nThe Smart Nation initiative is led by the Ministry of Digital Development and Information. Its role is strategic: it coordinates the national vision for digital development and aligns technology policy with wider social, economic, and public-sector goals.\nThis central leadership model helps reduce fragmentation. Instead of allowing each ministry or agency to pursue digitalization independently, the initiative provides a common national direction.\n\n\n10.4.2 Government Technology Agency\nGovTech is responsible for developing government digital services and the infrastructure that supports them. It plays an operational role by turning policy goals into platforms, applications, and common digital capabilities.\nGovTech illustrates the importance of an institution that can provide shared technical expertise across government. In data governance terms, this can support common standards, reusable platforms, interoperability, and more consistent security practices.\n\n\n10.4.3 Public agencies and sectoral institutions\nSmart Nation programmes span many areas, including health, education, transportation, trade, finance, security, sustainability, and government services. The official Smart Nation portal lists initiatives across these domains, showing that implementation is distributed across multiple agencies rather than controlled by one institution.\nThis model combines central coordination with sector-specific responsibility. Agencies retain expertise in their policy areas, while shared national frameworks provide common direction.\n\n\n10.4.4 Citizens, businesses, and community organizations\nThe initiative is described as a whole-of-nation effort. Citizen participation is supported through programmes such as Tech Kaki, Build for Good, Open Jio, Smart Nation Ambassadors, and the Smart Nation Ambassador Citizen Co-Creation Group.\nThe Citizen Co-Creation Group is designed to involve not only digitally confident users but also seniors, people with disabilities, low-income families, businesses, and community organizations. Participants contribute feedback, discuss service gaps, test prototypes, and help public agencies improve digital products.\nThis approach treats citizens not only as data subjects or service users but also as contributors to digital governance.",
     "crumbs": [
       "Data Case Studies",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Case Study: Singapore's Smart Nation Initiative and the Governance of a Data-Driven State</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Singapore's Smart Nation Initiative and the Governance of a Data-Driven State</span>"
     ]
   },
   {
     "objectID": "case_study_singapore.html#frameworks-and-policy-architecture",
     "href": "case_study_singapore.html#frameworks-and-policy-architecture",
-    "title": "10  Case Study: Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State",
+    "title": "10  Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State",
     "section": "10.5 Frameworks and Policy Architecture",
     "text": "10.5 Frameworks and Policy Architecture\nSingapore’s Smart Nation model is supported by a portfolio of strategies, blueprints, and reports rather than by a single governing document. The official framework collection includes:\n\nthe Smart Nation 2.0 Report;\nthe Digital Connectivity Blueprint;\nthe National AI Strategy 2.0;\nthe Digital Enterprise Blueprint;\nthe Singapore Digital Society Report;\nthe Singapore Cybersecurity Strategy; and\nthe Digital Government Blueprint.\n\nTogether, these documents cover several layers of governance:\n\nnational vision and priorities;\ninfrastructure and connectivity;\npublic-sector digital transformation;\nartificial intelligence;\ncybersecurity and resilience;\nbusiness digitalization; and\ndigital inclusion.\n\nThis layered approach is significant. It demonstrates that national data governance is often built through a family of linked frameworks, each addressing a different part of the digital ecosystem.",
     "crumbs": [
       "Data Case Studies",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Case Study: Singapore's Smart Nation Initiative and the Governance of a Data-Driven State</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Singapore's Smart Nation Initiative and the Governance of a Data-Driven State</span>"
     ]
   },
   {
     "objectID": "case_study_singapore.html#core-data-governance-principles",
     "href": "case_study_singapore.html#core-data-governance-principles",
-    "title": "10  Case Study: Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State",
+    "title": "10  Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State",
     "section": "10.6 Core Data Governance Principles",
     "text": "10.6 Core Data Governance Principles\n\n10.6.1 1. Trust as a condition for digital adoption\nSmart Nation 2.0 identifies trust as a central goal. The government links trust to secure and resilient infrastructure, protection from harmful online activity, and the creation of safer digital spaces.\nFor data governance, this means that people must have confidence that systems are reliable, that personal and public data are protected, and that remedies exist when harm occurs. Trust is therefore both a technical outcome and an institutional relationship.\n\n\n10.6.2 2. Interoperability and shared digital infrastructure\nNational digital services work best when agencies can use common platforms, standards, and identity systems. Shared infrastructure can reduce duplication and make services more seamless.\nHowever, interoperability also increases the importance of access controls, data quality, metadata, audit trails, and clear rules for inter-agency data sharing. A connected system can improve efficiency, but it can also spread errors or create wider exposure if governance is weak.\n\n\n10.6.3 3. Security and resilience\nSmart Nation treats broadband networks, mobile systems, data centres, cloud services, and digital platforms as critical infrastructure. The trust framework acknowledges that disruptions and cyberattacks cannot be eliminated entirely, so institutions must also be prepared to respond and recover.\nThis reflects a broader shift in data governance from simple protection toward resilience. Organizations must plan for continuity, incident response, recovery, and public communication.\n\n\n10.6.4 4. Inclusion and accessibility\nA data-driven state can deepen inequality when some groups lack devices, connectivity, digital skills, or accessible services. Singapore’s digital inclusion programmes and co-creation mechanisms seek to address these risks by involving groups with different needs and abilities.\nIn governance terms, inclusion affects how data are collected, how services are designed, and whose experiences are represented in decision-making.\n\n\n10.6.5 5. Accountability for emerging technologies\nSingapore’s framework portfolio includes a national artificial intelligence strategy, and the Smart Nation initiative includes tools such as AI Verify, which is described as an AI governance testing framework and toolkit.\nThis illustrates a move from broad ethical principles toward operational governance. Testing frameworks, documentation, standards, and assurance mechanisms can help organizations evaluate whether AI systems perform in ways that are consistent with stated governance principles.\n\n\n10.6.6 6. Continuous iteration\nThe Smart Nation vision emphasizes that policies and strategies should evolve as technology and public concerns change. The government states that Smart Nation 2.0 strategies will be adjusted over time through consultation with citizens and businesses.\nThis suggests that data governance should not be treated as a fixed compliance exercise. It is an ongoing process of monitoring, feedback, evaluation, and revision.",
     "crumbs": [
       "Data Case Studies",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Case Study: Singapore's Smart Nation Initiative and the Governance of a Data-Driven State</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Singapore's Smart Nation Initiative and the Governance of a Data-Driven State</span>"
     ]
   },
   {
     "objectID": "case_study_singapore.html#examples-of-data-enabled-public-infrastructure",
     "href": "case_study_singapore.html#examples-of-data-enabled-public-infrastructure",
-    "title": "10  Case Study: Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State",
+    "title": "10  Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State",
     "section": "10.7 Examples of Data-Enabled Public Infrastructure",
     "text": "10.7 Examples of Data-Enabled Public Infrastructure\nThe Smart Nation portfolio includes a wide range of programmes. Examples include national digital identity, electronic payments, AI governance tools, automated immigration, geospatial accessibility services, digital health systems, and smart-city infrastructure.\nThese examples show that data can support public value in different ways:\n\nauthenticating identity;\nreducing transaction time;\nimproving service personalization;\nsupporting mobility and accessibility;\ncoordinating public resources;\nenabling automated decision support; and\ngenerating evidence for policy and planning.\n\nAt the same time, each application creates governance responsibilities related to consent, authorization, accuracy, cybersecurity, accountability, and fairness.",
     "crumbs": [
       "Data Case Studies",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Case Study: Singapore's Smart Nation Initiative and the Governance of a Data-Driven State</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Singapore's Smart Nation Initiative and the Governance of a Data-Driven State</span>"
     ]
   },
   {
     "objectID": "case_study_singapore.html#application-to-the-global-landscape-of-data-governance",
     "href": "case_study_singapore.html#application-to-the-global-landscape-of-data-governance",
-    "title": "10  Case Study: Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State",
+    "title": "10  Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State",
     "section": "10.8 Application to the Global Landscape of Data Governance",
     "text": "10.8 Application to the Global Landscape of Data Governance\nSingapore’s Smart Nation initiative illustrates several features of contemporary national data governance.\nFirst, central coordination can accelerate implementation. A lead ministry and a specialized technology agency can establish shared priorities and capabilities across government.\nSecond, governance is distributed across an ecosystem. Ministries, technical agencies, sector regulators, businesses, researchers, community organizations, and citizens all play different roles.\nThird, data governance is embedded in broader digital policy. It is linked to cybersecurity, infrastructure, artificial intelligence, economic policy, public administration, and social inclusion.\nFourth, public trust is treated as a strategic asset. Security, reliability, online safety, and citizen participation are not secondary matters; they are necessary for sustained digital adoption.\nFifth, frameworks must be translated into operational systems. Strategies and principles become meaningful only when they shape technical standards, institutional mandates, service design, procurement, testing, and oversight.\nFinally, national context matters. Singapore’s compact geography, strong administrative capacity, high connectivity, and centralized institutional structure may make some approaches easier to implement than in larger or more decentralized countries. Other governments may therefore need to adapt the model rather than copy it directly.",
     "crumbs": [
       "Data Case Studies",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Case Study: Singapore's Smart Nation Initiative and the Governance of a Data-Driven State</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Singapore's Smart Nation Initiative and the Governance of a Data-Driven State</span>"
     ]
   },
   {
     "objectID": "case_study_singapore.html#governance-tensions-and-questions",
     "href": "case_study_singapore.html#governance-tensions-and-questions",
-    "title": "10  Case Study: Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State",
+    "title": "10  Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State",
     "section": "10.9 Governance Tensions and Questions",
     "text": "10.9 Governance Tensions and Questions\nThe Smart Nation model also raises important tensions for analysis.\nA highly integrated digital government can deliver convenient services, but greater integration may increase the consequences of data misuse, system failure, or unauthorized access.\nCentral coordination can improve consistency, but it may also concentrate decision-making authority.\nData-driven personalization can improve services, but it can create concerns about profiling, opacity, and unequal treatment.\nRapid experimentation can support innovation, but public institutions must still provide accountability, legal certainty, and safeguards.\nCitizen co-creation can improve service design, but participation must be broad enough to represent people who are less digitally connected or less able to engage.\nThese tensions are common across the global data governance landscape and make Singapore a valuable comparative case.",
     "crumbs": [
       "Data Case Studies",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Case Study: Singapore's Smart Nation Initiative and the Governance of a Data-Driven State</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Singapore's Smart Nation Initiative and the Governance of a Data-Driven State</span>"
     ]
   },
   {
     "objectID": "case_study_singapore.html#discussion-questions",
     "href": "case_study_singapore.html#discussion-questions",
-    "title": "10  Case Study: Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State",
+    "title": "10  Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State",
     "section": "10.10 Discussion Questions",
     "text": "10.10 Discussion Questions\n\nWhat are the advantages and risks of assigning central leadership for digital transformation to a single ministry?\nHow should responsibilities be divided between a central digital agency and sector-specific public agencies?\nWhich governance controls are most important when government databases and services become more interoperable?\nHow can governments measure whether citizens genuinely trust digital public services?\nWhat role should citizens have in the design, testing, and oversight of data-driven services?\nHow should a government balance service personalization with privacy and limits on data use?\nWhat additional safeguards are needed when artificial intelligence is used in public-sector decision-making?\nWhich features of Singapore’s model are transferable to other countries, and which depend on Singapore’s institutional context?\nHow can digital inclusion be incorporated into data governance rather than treated as a separate social policy?\nWhat indicators would you use to evaluate whether Smart Nation 2.0 is achieving its goals of Trust, Growth, and Community?",
     "crumbs": [
       "Data Case Studies",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Case Study: Singapore's Smart Nation Initiative and the Governance of a Data-Driven State</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Singapore's Smart Nation Initiative and the Governance of a Data-Driven State</span>"
     ]
   },
   {
     "objectID": "case_study_singapore.html#key-takeaway",
     "href": "case_study_singapore.html#key-takeaway",
-    "title": "10  Case Study: Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State",
+    "title": "10  Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State",
     "section": "10.11 Key Takeaway",
     "text": "10.11 Key Takeaway\nSingapore’s Smart Nation initiative demonstrates that effective data governance requires more than laws or technical standards. It depends on a coordinated institutional system that connects national strategy, shared infrastructure, cybersecurity, public-sector capability, citizen participation, and social inclusion.\nThe case also shows that the success of a data-driven state should not be measured only by the number of digital services created. It should also be assessed by whether those services are trustworthy, resilient, inclusive, accountable, and capable of producing public value.\n\n\n\n\nSmart Nation Singapore. (n.d.). In Smart Nation Singapore. Retrieved July 13, 2026, from https://www.smartnation.gov.sg/",
     "crumbs": [
       "Data Case Studies",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Case Study: Singapore's Smart Nation Initiative and the Governance of a Data-Driven State</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Singapore's Smart Nation Initiative and the Governance of a Data-Driven State</span>"
     ]
   },
   {
