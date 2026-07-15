@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>11&nbsp; Governing the Northbridge Vulnerability Dashboard – Data for Decision Makers: Data Concepts and Applications</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./case_study_un.html" rel="next">
+<link href="./case_study_singapore.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2ed7f7ae727038b1aa95f4c24ad3a3a6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-96eaa155c8a12c262b2268325f35a575.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FD0RT8JB4E"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-FD0RT8JB4E', { 'anonymize_ip': true});
+</script>
+
+
+</head>
+
+<body class="floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./case_study_one.html">Data Case Studies</a></li><li class="breadcrumb-item"><a href="./case_study_nrsp.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Governing the Northbridge Vulnerability Dashboard</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Data for Decision Makers: Data Concepts and Applications</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/data4decisonmakers/data-concepts-applications/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Data-for-Decision-Makers--Data-Concepts-and-Applications.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Data-for-Decision-Makers--Data-Concepts-and-Applications.epub">
+              <i class="bi bi-journal pe-1"></i>
+            Download ePub
+            </a>
+          </li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-1" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-1">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
+              <i class="bi bi-linkedin pe-1"></i>
+            LinkedIn
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+              <i class="bi bi-facebook pe-1"></i>
+            Facebook
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Data Concepts</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./all-about-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">All about data</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Data Case Studies</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_one.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Data use and analytics in water quality management</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_two.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Enhancing Local Governance Through Data-Driven Decision-Making in Indonesia</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case-study-three.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">The Use of Data in Local Governance - A Michigan Perspective</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case-study-four.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Enhancing Data-Driven Decision-Making in Local Governance - A Focus on Turkana County</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case-study-five.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Indigenous Data Governance in the United States</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_india.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Helping communities to gain the ability to collect and analyze their own data</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_mozambique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_singapore.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_nrsp.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Governing the Northbridge Vulnerability Dashboard</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_un.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Building a Shared Technology and Data Future for the United Nations</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_nagpra.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Reclaiming Authority over Indigenous Data</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Data Management</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./data-security.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Data privacy, security, and protection</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./data-tools.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Data tools</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./all-about-spreadsheets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">All about spreadsheets</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./project-based-workflow.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Project-based workflow</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./data-entry-storage.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Data entry/collection and storage using spreadsheets</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Exploratory Data Analysis</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./exploratory-data-analysis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Exploratory data analysis</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./univariate-statistics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Univariate statistics</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bivariate-statistics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Bivariate statistics</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./epi-statistics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Epidemiological statistics</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#scenario" id="toc-scenario" class="nav-link active" data-scroll-target="#scenario"><span class="header-section-number">11.1</span> Scenario</a></li>
+  <li><a href="#stakeholder-roles" id="toc-stakeholder-roles" class="nav-link" data-scroll-target="#stakeholder-roles"><span class="header-section-number">11.2</span> Stakeholder roles</a>
+  <ul class="collapse">
+  <li><a href="#role-1-executive-sponsor" id="toc-role-1-executive-sponsor" class="nav-link" data-scroll-target="#role-1-executive-sponsor"><span class="header-section-number">11.2.1</span> Role 1: Executive Sponsor</a></li>
+  <li><a href="#role-2-chief-data-officer-or-data-governance-lead" id="toc-role-2-chief-data-officer-or-data-governance-lead" class="nav-link" data-scroll-target="#role-2-chief-data-officer-or-data-governance-lead"><span class="header-section-number">11.2.2</span> Role 2: Chief Data Officer or Data Governance Lead</a></li>
+  <li><a href="#role-3-service-or-operational-data-owner" id="toc-role-3-service-or-operational-data-owner" class="nav-link" data-scroll-target="#role-3-service-or-operational-data-owner"><span class="header-section-number">11.2.3</span> Role 3: Service or Operational Data Owner</a></li>
+  <li><a href="#role-4-legal-privacy-security-and-ethics-adviser" id="toc-role-4-legal-privacy-security-and-ethics-adviser" class="nav-link" data-scroll-target="#role-4-legal-privacy-security-and-ethics-adviser"><span class="header-section-number">11.2.4</span> Role 4: Legal, Privacy, Security, and Ethics Adviser</a></li>
+  <li><a href="#role-5-community-and-public-representative" id="toc-role-5-community-and-public-representative" class="nav-link" data-scroll-target="#role-5-community-and-public-representative"><span class="header-section-number">11.2.5</span> Role 5: Community and Public Representative</a></li>
+  </ul></li>
+  <li><a href="#group-task" id="toc-group-task" class="nav-link" data-scroll-target="#group-task"><span class="header-section-number">11.3</span> Group task</a>
+  <ul class="collapse">
+  <li><a href="#decide-whether-and-how-the-project-should-proceed" id="toc-decide-whether-and-how-the-project-should-proceed" class="nav-link" data-scroll-target="#decide-whether-and-how-the-project-should-proceed"><span class="header-section-number">11.3.1</span> Decide whether and how the project should proceed</a></li>
+  <li><a href="#define-the-minimum-governance-structure" id="toc-define-the-minimum-governance-structure" class="nav-link" data-scroll-target="#define-the-minimum-governance-structure"><span class="header-section-number">11.3.2</span> Define the minimum governance structure</a></li>
+  <li><a href="#set-launch-conditions" id="toc-set-launch-conditions" class="nav-link" data-scroll-target="#set-launch-conditions"><span class="header-section-number">11.3.3</span> Set launch conditions</a></li>
+  <li><a href="#decide-what-data-should-be-included" id="toc-decide-what-data-should-be-included" class="nav-link" data-scroll-target="#decide-what-data-should-be-included"><span class="header-section-number">11.3.4</span> Decide what data should be included</a></li>
+  <li><a href="#define-success" id="toc-define-success" class="nav-link" data-scroll-target="#define-success"><span class="header-section-number">11.3.5</span> Define success</a></li>
+  </ul></li>
+  <li><a href="#required-group-output" id="toc-required-group-output" class="nav-link" data-scroll-target="#required-group-output"><span class="header-section-number">11.4</span> Required group output</a></li>
+  <li><a href="#prioritised-discussion-questions" id="toc-prioritised-discussion-questions" class="nav-link" data-scroll-target="#prioritised-discussion-questions"><span class="header-section-number">11.5</span> Prioritised discussion questions</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/data4decisonmakers/data-concepts-applications/edit/main/00-case-study-nrsp.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./case_study_one.html">Data Case Studies</a></li><li class="breadcrumb-item"><a href="./case_study_nrsp.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Governing the Northbridge Vulnerability Dashboard</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Governing the Northbridge Vulnerability Dashboard</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="scenario" class="level2" data-number="11.1">
+<h2 data-number="11.1" class="anchored" data-anchor-id="scenario"><span class="header-section-number">11.1</span> Scenario</h2>
+<p>The fictional <strong>Northbridge Regional Services Partnership</strong>, or NRSP, brings together local government, health services, housing associations, transport authorities, police, and voluntary organisations.</p>
+<p>The partnership wants to create a <strong>Vulnerability and Service Demand Dashboard</strong> before winter. The dashboard would combine information about:</p>
+<ul>
+<li>rent arrears and threatened evictions;</li>
+<li>temporary accommodation;</li>
+<li>missed health appointments;</li>
+<li>emergency hospital admissions;</li>
+<li>school attendance;</li>
+<li>demand for food and debt assistance;</li>
+<li>transport accessibility;</li>
+<li>energy hardship; and</li>
+<li>previous contact with social services.</li>
+</ul>
+<p>Senior leaders want to use the dashboard to identify neighbourhoods experiencing increasing pressure and to allocate outreach teams, emergency funding, and service capacity.</p>
+<p>However, the partnership does not yet have a common data governance framework.</p>
+<p>The participating organisations use different data definitions, systems, update schedules, quality controls, and access procedures. It is also unclear who is accountable for the quality and authorised use of each dataset.</p>
+<p>An experimental version of the dashboard has already exposed several problems:</p>
+<ul>
+<li>One neighbourhood appeared to have the highest vulnerability level, but this was partly because its housing provider submitted more current and complete data than other providers.</li>
+<li>Missed health appointments were treated as an indicator of vulnerability, although they may also reflect transport difficulties, inaccessible booking systems, caring responsibilities, or inaccurate contact details.</li>
+<li>Analysts included free-text comments entered by frontline workers, even though the comments were unverified and had not originally been collected for risk assessment.</li>
+<li>Community representatives are concerned that the dashboard could stigmatise neighbourhoods, reinforce historic inequalities, or be used for enforcement rather than support.</li>
+<li>Senior leaders still want an initial version of the dashboard within six months.</li>
+</ul>
+<p>The executive board must decide whether and how to proceed.</p>
+</section>
+<section id="stakeholder-roles" class="level2" data-number="11.2">
+<h2 data-number="11.2" class="anchored" data-anchor-id="stakeholder-roles"><span class="header-section-number">11.2</span> Stakeholder roles</h2>
+<p>Assign one role to each of your team members. In groups with fewer than five members, participants may combine roles.</p>
+<section id="role-1-executive-sponsor" class="level3" data-number="11.2.1">
+<h3 data-number="11.2.1" class="anchored" data-anchor-id="role-1-executive-sponsor"><span class="header-section-number">11.2.1</span> Role 1: Executive Sponsor</h3>
+<p>You are a senior leader responsible for ensuring that the partnership responds to winter pressures.</p>
+<section id="your-priorities" class="level4" data-number="11.2.1.1">
+<h4 data-number="11.2.1.1" class="anchored" data-anchor-id="your-priorities"><span class="header-section-number">11.2.1.1</span> Your priorities</h4>
+<ul>
+<li>Deliver visible improvements quickly.</li>
+<li>Ensure that the project supports strategic public-service objectives.</li>
+<li>Avoid unnecessary delays or bureaucracy.</li>
+<li>Clarify who is accountable for major decisions.</li>
+<li>Demonstrate value to partner organisations and elected officials.</li>
+</ul>
+</section>
+<section id="your-concerns" class="level4" data-number="11.2.1.2">
+<h4 data-number="11.2.1.2" class="anchored" data-anchor-id="your-concerns"><span class="header-section-number">11.2.1.2</span> Your concerns</h4>
+<ul>
+<li>A lengthy governance programme may delay urgent action.</li>
+<li>Different organisations may refuse to cooperate.</li>
+<li>The project could fail publicly if the data is unreliable or misused.</li>
+<li>Governance structures may become too complicated for senior leaders to use.</li>
+</ul>
+</section>
+<section id="questions-you-should-raise" class="level4" data-number="11.2.1.3">
+<h4 data-number="11.2.1.3" class="anchored" data-anchor-id="questions-you-should-raise"><span class="header-section-number">11.2.1.3</span> Questions you should raise</h4>
+<ul>
+<li>What decisions will the dashboard support?</li>
+<li>Who has final authority to approve or stop the project?</li>
+<li>What must be in place before launch?</li>
+<li>How will success be measured?</li>
+</ul>
+</section>
+</section>
+<section id="role-2-chief-data-officer-or-data-governance-lead" class="level3" data-number="11.2.2">
+<h3 data-number="11.2.2" class="anchored" data-anchor-id="role-2-chief-data-officer-or-data-governance-lead"><span class="header-section-number">11.2.2</span> Role 2: Chief Data Officer or Data Governance Lead</h3>
+<p>You are responsible for designing a sustainable governance framework across the partnership.</p>
+<section id="your-priorities-1" class="level4" data-number="11.2.2.1">
+<h4 data-number="11.2.2.1" class="anchored" data-anchor-id="your-priorities-1"><span class="header-section-number">11.2.2.1</span> Your priorities</h4>
+<ul>
+<li>Establish clear data ownership and stewardship.</li>
+<li>Introduce common definitions, standards, and quality controls.</li>
+<li>Create a data catalogue and documented approval process.</li>
+<li>Ensure that governance is proportionate to risk.</li>
+<li>Build a model that can be reused for future data initiatives.</li>
+</ul>
+</section>
+<section id="your-concerns-1" class="level4" data-number="11.2.2.2">
+<h4 data-number="11.2.2.2" class="anchored" data-anchor-id="your-concerns-1"><span class="header-section-number">11.2.2.2</span> Your concerns</h4>
+<ul>
+<li>The project may proceed before responsibilities are clear.</li>
+<li>Temporary workarounds may become permanent.</li>
+<li>Voluntary standards may not be followed.</li>
+<li>The partnership may focus on technology while ignoring governance.</li>
+</ul>
+</section>
+<section id="questions-you-should-raise-1" class="level4" data-number="11.2.2.3">
+<h4 data-number="11.2.2.3" class="anchored" data-anchor-id="questions-you-should-raise-1"><span class="header-section-number">11.2.2.3</span> Questions you should raise</h4>
+<ul>
+<li>Who owns each critical dataset?</li>
+<li>Which data elements require common definitions?</li>
+<li>What quality thresholds should apply?</li>
+<li>How will issues and exceptions be escalated?</li>
+</ul>
+</section>
+</section>
+<section id="role-3-service-or-operational-data-owner" class="level3" data-number="11.2.3">
+<h3 data-number="11.2.3" class="anchored" data-anchor-id="role-3-service-or-operational-data-owner"><span class="header-section-number">11.2.3</span> Role 3: Service or Operational Data Owner</h3>
+<p>You are a senior manager from a housing, health, or social-service organisation that will provide data to the dashboard.</p>
+<section id="your-priorities-2" class="level4" data-number="11.2.3.1">
+<h4 data-number="11.2.3.1" class="anchored" data-anchor-id="your-priorities-2"><span class="header-section-number">11.2.3.1</span> Your priorities</h4>
+<ul>
+<li>Ensure that the data is interpreted in its operational context.</li>
+<li>Protect the ability of your organisation to deliver services.</li>
+<li>Avoid being held responsible for errors caused by other systems or organisations.</li>
+<li>Ensure that data requests are realistic and proportionate.</li>
+<li>Obtain resources to improve poor-quality data.</li>
+</ul>
+</section>
+<section id="your-concerns-2" class="level4" data-number="11.2.3.2">
+<h4 data-number="11.2.3.2" class="anchored" data-anchor-id="your-concerns-2"><span class="header-section-number">11.2.3.2</span> Your concerns</h4>
+<ul>
+<li>Your data may be used for purposes for which it was not collected.</li>
+<li>Dashboard users may misinterpret operational indicators.</li>
+<li>Your organisation may be blamed for incomplete or outdated information.</li>
+<li>New governance requirements may create additional workload.</li>
+</ul>
+</section>
+<section id="questions-you-should-raise-2" class="level4" data-number="11.2.3.3">
+<h4 data-number="11.2.3.3" class="anchored" data-anchor-id="questions-you-should-raise-2"><span class="header-section-number">11.2.3.3</span> Questions you should raise</h4>
+<ul>
+<li>Is the proposed use consistent with the original purpose of the data?</li>
+<li>What limitations must be shown to dashboard users?</li>
+<li>Who will pay for quality improvements?</li>
+<li>How can operational staff correct errors?</li>
+</ul>
+</section>
+</section>
+<section id="role-4-legal-privacy-security-and-ethics-adviser" class="level3" data-number="11.2.4">
+<h3 data-number="11.2.4" class="anchored" data-anchor-id="role-4-legal-privacy-security-and-ethics-adviser"><span class="header-section-number">11.2.4</span> Role 4: Legal, Privacy, Security, and Ethics Adviser</h3>
+<p>You are responsible for assessing legal compliance, information security, ethical risks, and public-interest considerations.</p>
+<section id="your-priorities-3" class="level4" data-number="11.2.4.1">
+<h4 data-number="11.2.4.1" class="anchored" data-anchor-id="your-priorities-3"><span class="header-section-number">11.2.4.1</span> Your priorities</h4>
+<ul>
+<li>Ensure that data use is lawful, necessary, and proportionate.</li>
+<li>Minimise the use of personal and sensitive information.</li>
+<li>Establish appropriate access, security, retention, and audit controls.</li>
+<li>Assess potential bias, discrimination, and unintended harm.</li>
+<li>Provide mechanisms for transparency, challenge, and redress.</li>
+</ul>
+</section>
+<section id="your-concerns-3" class="level4" data-number="11.2.4.2">
+<h4 data-number="11.2.4.2" class="anchored" data-anchor-id="your-concerns-3"><span class="header-section-number">11.2.4.2</span> Your concerns</h4>
+<ul>
+<li>Data may be shared on the assumption that a public benefit justifies any use.</li>
+<li>Person-level information may be used when aggregated data would be sufficient.</li>
+<li>Historical inequalities may be reproduced through risk indicators.</li>
+<li>Data could later be reused for enforcement or surveillance.</li>
+</ul>
+</section>
+<section id="questions-you-should-raise-3" class="level4" data-number="11.2.4.3">
+<h4 data-number="11.2.4.3" class="anchored" data-anchor-id="questions-you-should-raise-3"><span class="header-section-number">11.2.4.3</span> Questions you should raise</h4>
+<ul>
+<li>What is the lawful and documented purpose of each data use?</li>
+<li>Can less sensitive data achieve the same result?</li>
+<li>Who can access the information, and for how long?</li>
+<li>What ethical review and public safeguards are required?</li>
+</ul>
+</section>
+</section>
+<section id="role-5-community-and-public-representative" class="level3" data-number="11.2.5">
+<h3 data-number="11.2.5" class="anchored" data-anchor-id="role-5-community-and-public-representative"><span class="header-section-number">11.2.5</span> Role 5: Community and Public Representative</h3>
+<p>You represent residents, voluntary organisations, and groups likely to be affected by the dashboard.</p>
+<section id="your-priorities-4" class="level4" data-number="11.2.5.1">
+<h4 data-number="11.2.5.1" class="anchored" data-anchor-id="your-priorities-4"><span class="header-section-number">11.2.5.1</span> Your priorities</h4>
+<ul>
+<li>Ensure that the system produces meaningful public benefit.</li>
+<li>Prevent neighbourhoods or individuals from being unfairly labelled.</li>
+<li>Make the project understandable to the public.</li>
+<li>Ensure that residents can question or correct inaccurate information.</li>
+<li>Keep the focus on support and prevention rather than surveillance or enforcement.</li>
+</ul>
+</section>
+<section id="your-concerns-4" class="level4" data-number="11.2.5.2">
+<h4 data-number="11.2.5.2" class="anchored" data-anchor-id="your-concerns-4"><span class="header-section-number">11.2.5.2</span> Your concerns</h4>
+<ul>
+<li>Residents may not know that their data is being combined.</li>
+<li>A vulnerability score may be treated as objective when it reflects incomplete or biased data.</li>
+<li>Communities may experience increased monitoring without receiving additional support.</li>
+<li>Consultation may occur only after important decisions have already been made.</li>
+</ul>
+</section>
+<section id="questions-you-should-raise-4" class="level4" data-number="11.2.5.3">
+<h4 data-number="11.2.5.3" class="anchored" data-anchor-id="questions-you-should-raise-4"><span class="header-section-number">11.2.5.3</span> Questions you should raise</h4>
+<ul>
+<li>How will affected communities participate in governance?</li>
+<li>What will residents be told about the dashboard?</li>
+<li>How can people challenge inaccurate or unfair decisions?</li>
+<li>What evidence will show that the dashboard benefits communities?</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="group-task" class="level2" data-number="11.3">
+<h2 data-number="11.3" class="anchored" data-anchor-id="group-task"><span class="header-section-number">11.3</span> Group task</h2>
+<p>Your group is the <strong>NRSP Data Governance Decision Panel</strong>.</p>
+<p>You must agree on a recommendation to the executive board covering the following areas.</p>
+<section id="decide-whether-and-how-the-project-should-proceed" class="level3" data-number="11.3.1">
+<h3 data-number="11.3.1" class="anchored" data-anchor-id="decide-whether-and-how-the-project-should-proceed"><span class="header-section-number">11.3.1</span> Decide whether and how the project should proceed</h3>
+<p>Choose one of the following approaches:</p>
+<section id="option-a-build-the-dashboard-first" class="level4" data-number="11.3.1.1">
+<h4 data-number="11.3.1.1" class="anchored" data-anchor-id="option-a-build-the-dashboard-first"><span class="header-section-number">11.3.1.1</span> Option A: Build the dashboard first</h4>
+<p>Develop the dashboard quickly using available data and introduce formal governance later.</p>
+</section>
+<section id="option-b-establish-the-full-governance-framework-first" class="level4" data-number="11.3.1.2">
+<h4 data-number="11.3.1.2" class="anchored" data-anchor-id="option-b-establish-the-full-governance-framework-first"><span class="header-section-number">11.3.1.2</span> Option B: Establish the full governance framework first</h4>
+<p>Do not begin integration until roles, standards, policies, and assurance processes have been fully implemented.</p>
+</section>
+<section id="option-c-use-a-phased-risk-based-approach" class="level4" data-number="11.3.1.3">
+<h4 data-number="11.3.1.3" class="anchored" data-anchor-id="option-c-use-a-phased-risk-based-approach"><span class="header-section-number">11.3.1.3</span> Option C: Use a phased, risk-based approach</h4>
+<p>Develop a limited pilot while establishing minimum governance controls. Expand the dashboard only after reviewing the pilot.</p>
+<p>Your group may modify one of these options, but you must explain your reasoning.</p>
+</section>
+</section>
+<section id="define-the-minimum-governance-structure" class="level3" data-number="11.3.2">
+<h3 data-number="11.3.2" class="anchored" data-anchor-id="define-the-minimum-governance-structure"><span class="header-section-number">11.3.2</span> Define the minimum governance structure</h3>
+<p>Identify the roles or bodies that must exist before launch.</p>
+<p>Consider whether the partnership needs:</p>
+<ul>
+<li>an executive data governance board;</li>
+<li>named data owners;</li>
+<li>data stewards;</li>
+<li>a central data governance office;</li>
+<li>technical custodians;</li>
+<li>an ethics and public-interest panel; and</li>
+<li>community representation.</li>
+</ul>
+<p>Clarify who is accountable for final decisions.</p>
+</section>
+<section id="set-launch-conditions" class="level3" data-number="11.3.3">
+<h3 data-number="11.3.3" class="anchored" data-anchor-id="set-launch-conditions"><span class="header-section-number">11.3.3</span> Set launch conditions</h3>
+<p>Agree on the minimum controls that must be completed before the dashboard can be used.</p>
+<p>These may include:</p>
+<ul>
+<li>a clearly documented purpose;</li>
+<li>named owners and stewards;</li>
+<li>common definitions;</li>
+<li>minimum quality thresholds;</li>
+<li>a data catalogue entry;</li>
+<li>legal and ethical review;</li>
+<li>role-based access;</li>
+<li>security and audit controls;</li>
+<li>retention and deletion rules;</li>
+<li>public communication;</li>
+<li>a correction or challenge process; and</li>
+<li>a scheduled review.</li>
+</ul>
+</section>
+<section id="decide-what-data-should-be-included" class="level3" data-number="11.3.4">
+<h3 data-number="11.3.4" class="anchored" data-anchor-id="decide-what-data-should-be-included"><span class="header-section-number">11.3.4</span> Decide what data should be included</h3>
+<p>Determine whether the pilot should use:</p>
+<ul>
+<li>neighbourhood-level aggregated data only;</li>
+<li>selected person-level data;</li>
+<li>missed health appointments;</li>
+<li>free-text frontline comments; and</li>
+<li>datasets that do not meet the same update or quality standards.</li>
+</ul>
+<p>For any excluded data, state what evidence or controls would be required before it could be introduced.</p>
+</section>
+<section id="define-success" class="level3" data-number="11.3.5">
+<h3 data-number="11.3.5" class="anchored" data-anchor-id="define-success"><span class="header-section-number">11.3.5</span> Define success</h3>
+<p>Select three to five measures that would show whether the governance framework and dashboard are working.</p>
+<p>Possible measures include:</p>
+<ul>
+<li>improved data quality;</li>
+<li>percentage of datasets with named owners;</li>
+<li>compliance with common standards;</li>
+<li>speed of appropriate data access;</li>
+<li>reduction in unresolved quality issues;</li>
+<li>absence of inappropriate access;</li>
+<li>user confidence in the dashboard;</li>
+<li>resident trust;</li>
+<li>improved allocation of services; and</li>
+<li>evidence of better outcomes for vulnerable communities.</li>
+</ul>
+</section>
+</section>
+<section id="required-group-output" class="level2" data-number="11.4">
+<h2 data-number="11.4" class="anchored" data-anchor-id="required-group-output"><span class="header-section-number">11.4</span> Required group output</h2>
+<p>Prepare a short report-back/presentation containing:</p>
+<ol type="1">
+<li>Your chosen implementation approach</li>
+<li>Your proposed governance structure</li>
+<li>Five mandatory conditions for launch</li>
+<li>Your decision on which data to include or exclude</li>
+<li>Your main unresolved risk</li>
+</ol>
+<p>Each stakeholder should briefly explain whether the final recommendation addresses their priorities and concerns.</p>
+</section>
+<section id="prioritised-discussion-questions" class="level2" data-number="11.5">
+<h2 data-number="11.5" class="anchored" data-anchor-id="prioritised-discussion-questions"><span class="header-section-number">11.5</span> Prioritised discussion questions</h2>
+<p><strong>1. Which implementation approach should the partnership adopt, and why?</strong></p>
+<p>Compare the need for rapid delivery with the risks of proceeding without adequate governance.</p>
+<p><strong>2. Who should be accountable for the quality, access, interpretation, and authorised use of the dashboard data?</strong></p>
+<p>Distinguish between business ownership, data stewardship, technical custody, and executive accountability.</p>
+<p><strong>3. What five governance controls must be mandatory before the dashboard is used to allocate resources?</strong></p>
+<p>Prioritise the controls rather than creating an exhaustive list.</p>
+<p><strong>4. Which proposed data sources or indicators should be excluded from the initial pilot?</strong></p>
+<p>Consider data quality, purpose, proportionality, fairness, and the risk of misinterpretation.</p>
+<p><strong>5. How should the partnership involve residents and communicate uncertainty, limitations, and potential harms?</strong></p>
+<p>Consider transparency, community participation, correction processes, human oversight, and public trust.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./case_study_singapore.html" class="pagination-link" aria-label="Singapore's Smart Nation Initiative and the Governance of a Data-Driven State">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./case_study_un.html" class="pagination-link" aria-label="Building a Shared Technology and Data Future for the United Nations">
+        <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Building a Shared Technology and Data Future for the United Nations</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/data4decisonmakers/data-concepts-applications/edit/main/00-case-study-nrsp.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>

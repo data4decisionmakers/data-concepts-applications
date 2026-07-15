@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>12&nbsp; Building a Shared Technology and Data Future for the United Nations – Data for Decision Makers: Data Concepts and Applications</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./case_study_nagpra.html" rel="next">
+<link href="./case_study_nrsp.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2ed7f7ae727038b1aa95f4c24ad3a3a6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-96eaa155c8a12c262b2268325f35a575.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FD0RT8JB4E"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-FD0RT8JB4E', { 'anonymize_ip': true});
+</script>
+
+
+</head>
+
+<body class="floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./case_study_one.html">Data Case Studies</a></li><li class="breadcrumb-item"><a href="./case_study_un.html"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Building a Shared Technology and Data Future for the United Nations</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Data for Decision Makers: Data Concepts and Applications</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/data4decisonmakers/data-concepts-applications/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Data-for-Decision-Makers--Data-Concepts-and-Applications.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Data-for-Decision-Makers--Data-Concepts-and-Applications.epub">
+              <i class="bi bi-journal pe-1"></i>
+            Download ePub
+            </a>
+          </li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-1" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-1">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
+              <i class="bi bi-linkedin pe-1"></i>
+            LinkedIn
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+              <i class="bi bi-facebook pe-1"></i>
+            Facebook
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Data Concepts</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./all-about-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">All about data</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Data Case Studies</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_one.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Data use and analytics in water quality management</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_two.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Enhancing Local Governance Through Data-Driven Decision-Making in Indonesia</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case-study-three.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">The Use of Data in Local Governance - A Michigan Perspective</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case-study-four.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Enhancing Data-Driven Decision-Making in Local Governance - A Focus on Turkana County</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case-study-five.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Indigenous Data Governance in the United States</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_india.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Helping communities to gain the ability to collect and analyze their own data</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_mozambique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_singapore.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_nrsp.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Governing the Northbridge Vulnerability Dashboard</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_un.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Building a Shared Technology and Data Future for the United Nations</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_nagpra.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Reclaiming Authority over Indigenous Data</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Data Management</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./data-security.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Data privacy, security, and protection</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./data-tools.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Data tools</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./all-about-spreadsheets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">All about spreadsheets</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./project-based-workflow.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Project-based workflow</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./data-entry-storage.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Data entry/collection and storage using spreadsheets</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Exploratory Data Analysis</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./exploratory-data-analysis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Exploratory data analysis</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./univariate-statistics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Univariate statistics</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bivariate-statistics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Bivariate statistics</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./epi-statistics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Epidemiological statistics</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#scenario" id="toc-scenario" class="nav-link active" data-scroll-target="#scenario"><span class="header-section-number">12.1</span> Scenario</a></li>
+  <li><a href="#the-immediate-decision" id="toc-the-immediate-decision" class="nav-link" data-scroll-target="#the-immediate-decision"><span class="header-section-number">12.2</span> The immediate decision</a></li>
+  <li><a href="#key-tensions" id="toc-key-tensions" class="nav-link" data-scroll-target="#key-tensions"><span class="header-section-number">12.3</span> Key tensions</a>
+  <ul class="collapse">
+  <li><a href="#shared-services-versus-organisational-independence" id="toc-shared-services-versus-organisational-independence" class="nav-link" data-scroll-target="#shared-services-versus-organisational-independence"><span class="header-section-number">12.3.1</span> Shared services versus organisational independence</a></li>
+  <li><a href="#open-sharing-versus-responsible-restriction" id="toc-open-sharing-versus-responsible-restriction" class="nav-link" data-scroll-target="#open-sharing-versus-responsible-restriction"><span class="header-section-number">12.3.2</span> Open sharing versus responsible restriction</a></li>
+  <li><a href="#common-standards-versus-existing-systems" id="toc-common-standards-versus-existing-systems" class="nav-link" data-scroll-target="#common-standards-versus-existing-systems"><span class="header-section-number">12.3.3</span> Common standards versus existing systems</a></li>
+  <li><a href="#collective-financing-versus-local-budgets" id="toc-collective-financing-versus-local-budgets" class="nav-link" data-scroll-target="#collective-financing-versus-local-budgets"><span class="header-section-number">12.3.4</span> Collective financing versus local budgets</a></li>
+  <li><a href="#voluntary-cooperation-versus-enforceable-governance" id="toc-voluntary-cooperation-versus-enforceable-governance" class="nav-link" data-scroll-target="#voluntary-cooperation-versus-enforceable-governance"><span class="header-section-number">12.3.5</span> Voluntary cooperation versus enforceable governance</a></li>
+  </ul></li>
+  <li><a href="#stakeholder-roles" id="toc-stakeholder-roles" class="nav-link" data-scroll-target="#stakeholder-roles"><span class="header-section-number">12.4</span> Stakeholder roles</a>
+  <ul class="collapse">
+  <li><a href="#role-1-un-system-transformation-executive" id="toc-role-1-un-system-transformation-executive" class="nav-link" data-scroll-target="#role-1-un-system-transformation-executive"><span class="header-section-number">12.4.1</span> Role 1: UN System Transformation Executive</a></li>
+  <li><a href="#role-2-chief-information-and-technology-officer" id="toc-role-2-chief-information-and-technology-officer" class="nav-link" data-scroll-target="#role-2-chief-information-and-technology-officer"><span class="header-section-number">12.4.2</span> Role 2: Chief Information and Technology Officer</a></li>
+  <li><a href="#role-3-chief-data-officer-and-data-commons-lead" id="toc-role-3-chief-data-officer-and-data-commons-lead" class="nav-link" data-scroll-target="#role-3-chief-data-officer-and-data-commons-lead"><span class="header-section-number">12.4.3</span> Role 3: Chief Data Officer and Data Commons Lead</a></li>
+  <li><a href="#role-4-humanitarian-protection-legal-and-ethics-adviser" id="toc-role-4-humanitarian-protection-legal-and-ethics-adviser" class="nav-link" data-scroll-target="#role-4-humanitarian-protection-legal-and-ethics-adviser"><span class="header-section-number">12.4.4</span> Role 4: Humanitarian Protection, Legal, and Ethics Adviser</a></li>
+  <li><a href="#role-5-representative-of-a-participating-un-entity-or-member-state-partner" id="toc-role-5-representative-of-a-participating-un-entity-or-member-state-partner" class="nav-link" data-scroll-target="#role-5-representative-of-a-participating-un-entity-or-member-state-partner"><span class="header-section-number">12.4.5</span> Role 5: Representative of a Participating UN Entity or Member State Partner</a></li>
+  </ul></li>
+  <li><a href="#group-task" id="toc-group-task" class="nav-link" data-scroll-target="#group-task"><span class="header-section-number">12.5</span> Group task</a>
+  <ul class="collapse">
+  <li><a href="#select-an-implementation-model" id="toc-select-an-implementation-model" class="nav-link" data-scroll-target="#select-an-implementation-model"><span class="header-section-number">12.5.1</span> Select an implementation model</a></li>
+  <li><a href="#define-the-governance-structure" id="toc-define-the-governance-structure" class="nav-link" data-scroll-target="#define-the-governance-structure"><span class="header-section-number">12.5.2</span> Define the governance structure</a></li>
+  <li><a href="#establish-participation-and-financing-rules" id="toc-establish-participation-and-financing-rules" class="nav-link" data-scroll-target="#establish-participation-and-financing-rules"><span class="header-section-number">12.5.3</span> Establish participation and financing rules</a></li>
+  <li><a href="#set-minimum-pilot-conditions" id="toc-set-minimum-pilot-conditions" class="nav-link" data-scroll-target="#set-minimum-pilot-conditions"><span class="header-section-number">12.5.4</span> Set minimum pilot conditions</a></li>
+  <li><a href="#decide-what-should-be-shared" id="toc-decide-what-should-be-shared" class="nav-link" data-scroll-target="#decide-what-should-be-shared"><span class="header-section-number">12.5.5</span> Decide what should be shared</a></li>
+  </ul></li>
+  <li><a href="#required-group-output" id="toc-required-group-output" class="nav-link" data-scroll-target="#required-group-output"><span class="header-section-number">12.6</span> Required group output</a></li>
+  <li><a href="#prioritised-discussion-questions" id="toc-prioritised-discussion-questions" class="nav-link" data-scroll-target="#prioritised-discussion-questions"><span class="header-section-number">12.7</span> Prioritised discussion questions</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/data4decisonmakers/data-concepts-applications/edit/main/00-case-study-un.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./case_study_one.html">Data Case Studies</a></li><li class="breadcrumb-item"><a href="./case_study_un.html"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Building a Shared Technology and Data Future for the United Nations</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Building a Shared Technology and Data Future for the United Nations</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="scenario" class="level2" data-number="12.1">
+<h2 data-number="12.1" class="anchored" data-anchor-id="scenario"><span class="header-section-number">12.1</span> Scenario</h2>
+<p>The United Nations system consists of many organisations, agencies, programmes, funds, regional bodies, and specialised entities. These organisations have different mandates, funding models, operating environments, and technology requirements.</p>
+<p>Over time, individual entities have developed or purchased their own:</p>
+<ul>
+<li>software systems;</li>
+<li>cloud services;</li>
+<li>data platforms;</li>
+<li>public data portals;</li>
+<li>connectivity arrangements;</li>
+<li>analytical tools; and</li>
+<li>technical-support services.</li>
+</ul>
+<p>This decentralised model has allowed organisations to respond to their own needs. However, it has also created duplication, inconsistent standards, weak interoperability, and high costs.</p>
+<p>The UN system spends more than <strong>$2 billion each year</strong> on software, cloud services, connectivity, and related support. Much of this spending takes place separately across entities, limiting opportunities to obtain economies of scale or develop shared capabilities.</p>
+<p>The UN is also a major custodian of global public data and statistics, including information on:</p>
+<ul>
+<li>population and migration;</li>
+<li>poverty and development;</li>
+<li>public health;</li>
+<li>humanitarian emergencies;</li>
+<li>conflict and peacebuilding;</li>
+<li>food security;</li>
+<li>education;</li>
+<li>climate and environmental risks; and</li>
+<li>progress toward international development goals.</li>
+</ul>
+<p>Despite the importance of this information, many UN data platforms remain fragmented and duplicative. Individual entities maintain parallel systems that often cannot exchange data easily. This creates blind spots, duplicated effort, slower analysis, and missed opportunities to understand interconnected global challenges.</p>
+<p>Senior UN leaders have proposed two major responses:</p>
+<ol type="1">
+<li>a <strong>Technology Accelerator Platform</strong> to modernise operations and expand shared information and communications technology services; and</li>
+<li>a <strong>UN System Data Commons</strong>, supported by shared data infrastructure and designed to improve interoperability across UN entities.</li>
+</ol>
+<p>Under the proposed model, entities would retain data that genuinely needs to remain separate, while data that can be shared would be made available through common infrastructure. Collective financing and governance incentives would be introduced to support participation.</p>
+<p>The proposal has broad support in principle. However, there is disagreement about how it should be implemented.</p>
+</section>
+<section id="the-immediate-decision" class="level2" data-number="12.2">
+<h2 data-number="12.2" class="anchored" data-anchor-id="the-immediate-decision"><span class="header-section-number">12.2</span> The immediate decision</h2>
+<p>A group of UN entities has been asked to participate in the first phase of the Technology Accelerator Platform and UN System Data Commons.</p>
+<p>The pilot will focus on a fictional regional crisis involving:</p>
+<ul>
+<li>severe drought;</li>
+<li>food insecurity;</li>
+<li>population displacement;</li>
+<li>disease outbreaks;</li>
+<li>disrupted education;</li>
+<li>rising humanitarian needs; and</li>
+<li>pressure on national and local public services.</li>
+</ul>
+<p>At least eight UN entities hold relevant information. However, they use different:</p>
+<ul>
+<li>country and location codes;</li>
+<li>geographic boundaries;</li>
+<li>definitions of affected populations;</li>
+<li>vulnerability indicators;</li>
+<li>data formats;</li>
+<li>software platforms;</li>
+<li>access rules;</li>
+<li>update schedules; and</li>
+<li>quality-assurance procedures.</li>
+</ul>
+<p>Some datasets are publicly available. Others contain sensitive information about displaced people, children, health conditions, conflict-affected communities, and humanitarian operations.</p>
+<p>Senior leaders want an integrated decision-support platform within nine months. They believe it could provide decision makers with a clearer picture of the crisis and help organisations coordinate resources.</p>
+<p>Before the pilot can proceed, the participating entities must agree on:</p>
+<ul>
+<li>the scope of shared technology services;</li>
+<li>the governance structure for the Data Commons;</li>
+<li>common interoperability standards;</li>
+<li>rules for data access and reuse;</li>
+<li>financing responsibilities;</li>
+<li>exceptions for data that must remain separate;</li>
+<li>accountability for quality and security; and</li>
+<li>incentives for entities to participate.</li>
+</ul>
+<p>Your group has been appointed as the <strong>UN Technology and Data Transformation Panel</strong>.</p>
+</section>
+<section id="key-tensions" class="level2" data-number="12.3">
+<h2 data-number="12.3" class="anchored" data-anchor-id="key-tensions"><span class="header-section-number">12.3</span> Key tensions</h2>
+<section id="shared-services-versus-organisational-independence" class="level3" data-number="12.3.1">
+<h3 data-number="12.3.1" class="anchored" data-anchor-id="shared-services-versus-organisational-independence"><span class="header-section-number">12.3.1</span> Shared services versus organisational independence</h3>
+<p>Some leaders argue that common technology platforms would reduce duplication, improve security, and lower costs.</p>
+<p>Others are concerned that centralisation could:</p>
+<ul>
+<li>reduce organisational autonomy;</li>
+<li>create dependence on a system-wide platform;</li>
+<li>fail to meet specialist operational needs;</li>
+<li>introduce a single point of failure; or</li>
+<li>allow larger entities to dominate decisions.</li>
+</ul>
+</section>
+<section id="open-sharing-versus-responsible-restriction" class="level3" data-number="12.3.2">
+<h3 data-number="12.3.2" class="anchored" data-anchor-id="open-sharing-versus-responsible-restriction"><span class="header-section-number">12.3.2</span> Open sharing versus responsible restriction</h3>
+<p>The proposed Data Commons is based on the principle that shareable data should be made available across the UN system.</p>
+<p>However, not all information can be treated in the same way. Some data may need to remain restricted because of:</p>
+<ul>
+<li>privacy;</li>
+<li>humanitarian protection;</li>
+<li>national security;</li>
+<li>political sensitivity;</li>
+<li>agreements with governments or partners;</li>
+<li>intellectual-property restrictions; or</li>
+<li>risks to vulnerable populations.</li>
+</ul>
+<p>The panel must decide how “shareable data” will be defined and who can authorise exceptions.</p>
+</section>
+<section id="common-standards-versus-existing-systems" class="level3" data-number="12.3.3">
+<h3 data-number="12.3.3" class="anchored" data-anchor-id="common-standards-versus-existing-systems"><span class="header-section-number">12.3.3</span> Common standards versus existing systems</h3>
+<p>Interoperability requires common definitions, metadata, identifiers, formats, interfaces, and quality expectations.</p>
+<p>However, replacing all existing systems would be costly and disruptive. Some entities have already invested heavily in specialist platforms.</p>
+<p>The panel must determine whether entities should:</p>
+<ul>
+<li>replace their existing systems;</li>
+<li>connect them to a shared data backbone;</li>
+<li>adopt common standards gradually; or</li>
+<li>use a combination of these approaches.</li>
+</ul>
+</section>
+<section id="collective-financing-versus-local-budgets" class="level3" data-number="12.3.4">
+<h3 data-number="12.3.4" class="anchored" data-anchor-id="collective-financing-versus-local-budgets"><span class="header-section-number">12.3.4</span> Collective financing versus local budgets</h3>
+<p>Shared infrastructure creates system-wide benefits, but costs may not be distributed evenly.</p>
+<p>Larger entities may be able to contribute more, while smaller entities may benefit significantly but have limited funds.</p>
+<p>There is also a risk that entities will continue investing in separate systems while expecting others to finance shared infrastructure.</p>
+</section>
+<section id="voluntary-cooperation-versus-enforceable-governance" class="level3" data-number="12.3.5">
+<h3 data-number="12.3.5" class="anchored" data-anchor-id="voluntary-cooperation-versus-enforceable-governance"><span class="header-section-number">12.3.5</span> Voluntary cooperation versus enforceable governance</h3>
+<p>Previous coordination initiatives have often depended on voluntary participation.</p>
+<p>Some stakeholders argue that collaboration will remain limited unless common standards and shared-service requirements are mandatory.</p>
+<p>Others argue that formal enforcement would be difficult because participating entities have distinct mandates, governing bodies, and funding sources.</p>
+</section>
+</section>
+<section id="stakeholder-roles" class="level2" data-number="12.4">
+<h2 data-number="12.4" class="anchored" data-anchor-id="stakeholder-roles"><span class="header-section-number">12.4</span> Stakeholder roles</h2>
+<p>Assign one role to each participant. In groups with fewer than five members, participants may combine roles.</p>
+<section id="role-1-un-system-transformation-executive" class="level3" data-number="12.4.1">
+<h3 data-number="12.4.1" class="anchored" data-anchor-id="role-1-un-system-transformation-executive"><span class="header-section-number">12.4.1</span> Role 1: UN System Transformation Executive</h3>
+<p>You are a senior leader responsible for delivering organisation-wide reform.</p>
+<section id="your-priorities" class="level4" data-number="12.4.1.1">
+<h4 data-number="12.4.1.1" class="anchored" data-anchor-id="your-priorities"><span class="header-section-number">12.4.1.1</span> Your priorities</h4>
+<ul>
+<li>Reduce duplication and unnecessary technology spending.</li>
+<li>Demonstrate visible progress within nine months.</li>
+<li>Build shared capabilities that benefit the entire UN system.</li>
+<li>Strengthen the UN’s credibility in a rapidly changing digital environment.</li>
+<li>Ensure that reforms support both internal operations and services to Member States.</li>
+</ul>
+</section>
+<section id="your-concerns" class="level4" data-number="12.4.1.2">
+<h4 data-number="12.4.1.2" class="anchored" data-anchor-id="your-concerns"><span class="header-section-number">12.4.1.2</span> Your concerns</h4>
+<ul>
+<li>The programme may become delayed by inter-agency negotiations.</li>
+<li>Entities may support reform publicly but resist practical changes.</li>
+<li>A small pilot may not produce meaningful system-wide savings.</li>
+<li>Failure could weaken confidence in future transformation initiatives.</li>
+</ul>
+</section>
+<section id="questions-you-should-raise" class="level4" data-number="12.4.1.3">
+<h4 data-number="12.4.1.3" class="anchored" data-anchor-id="questions-you-should-raise"><span class="header-section-number">12.4.1.3</span> Questions you should raise</h4>
+<ul>
+<li>Which decisions must be made centrally?</li>
+<li>What results should be delivered in the first nine months?</li>
+<li>How will entities be held accountable for participation?</li>
+<li>How will benefits and savings be demonstrated?</li>
+</ul>
+</section>
+</section>
+<section id="role-2-chief-information-and-technology-officer" class="level3" data-number="12.4.2">
+<h3 data-number="12.4.2" class="anchored" data-anchor-id="role-2-chief-information-and-technology-officer"><span class="header-section-number">12.4.2</span> Role 2: Chief Information and Technology Officer</h3>
+<p>You are responsible for the shared technology architecture and the Technology Accelerator Platform.</p>
+<section id="your-priorities-1" class="level4" data-number="12.4.2.1">
+<h4 data-number="12.4.2.1" class="anchored" data-anchor-id="your-priorities-1"><span class="header-section-number">12.4.2.1</span> Your priorities</h4>
+<ul>
+<li>Consolidate duplicative technology services where practical.</li>
+<li>Improve cybersecurity, resilience, and technical support.</li>
+<li>Develop reusable cloud, connectivity, identity, and integration services.</li>
+<li>Avoid replacing specialist systems unnecessarily.</li>
+<li>Create a scalable architecture that can support future AI and digital initiatives.</li>
+</ul>
+</section>
+<section id="your-concerns-1" class="level4" data-number="12.4.2.2">
+<h4 data-number="12.4.2.2" class="anchored" data-anchor-id="your-concerns-1"><span class="header-section-number">12.4.2.2</span> Your concerns</h4>
+<ul>
+<li>Existing systems may be outdated or difficult to integrate.</li>
+<li>A single platform could become too complex or vulnerable.</li>
+<li>Entities may demand extensive customisation.</li>
+<li>Technology may be blamed for problems that are actually caused by weak governance or inconsistent business processes.</li>
+</ul>
+</section>
+<section id="questions-you-should-raise-1" class="level4" data-number="12.4.2.3">
+<h4 data-number="12.4.2.3" class="anchored" data-anchor-id="questions-you-should-raise-1"><span class="header-section-number">12.4.2.3</span> Questions you should raise</h4>
+<ul>
+<li>Which services should be shared across the system?</li>
+<li>What should remain under local control?</li>
+<li>Should the pilot use one common platform or a federated architecture?</li>
+<li>What technical standards are essential for interoperability?</li>
+</ul>
+</section>
+</section>
+<section id="role-3-chief-data-officer-and-data-commons-lead" class="level3" data-number="12.4.3">
+<h3 data-number="12.4.3" class="anchored" data-anchor-id="role-3-chief-data-officer-and-data-commons-lead"><span class="header-section-number">12.4.3</span> Role 3: Chief Data Officer and Data Commons Lead</h3>
+<p>You are responsible for the governance, interoperability, and long-term value of the UN System Data Commons.</p>
+<section id="your-priorities-2" class="level4" data-number="12.4.3.1">
+<h4 data-number="12.4.3.1" class="anchored" data-anchor-id="your-priorities-2"><span class="header-section-number">12.4.3.1</span> Your priorities</h4>
+<ul>
+<li>Establish common metadata, identifiers, definitions, and interfaces.</li>
+<li>Make data easier to find, access, combine, and reuse.</li>
+<li>Define clear data ownership and stewardship responsibilities.</li>
+<li>Introduce transparent data-quality and lineage information.</li>
+<li>Ensure that the Data Commons supports local, regional, and global analysis.</li>
+</ul>
+</section>
+<section id="your-concerns-2" class="level4" data-number="12.4.3.2">
+<h4 data-number="12.4.3.2" class="anchored" data-anchor-id="your-concerns-2"><span class="header-section-number">12.4.3.2</span> Your concerns</h4>
+<ul>
+<li>The project may create another portal rather than a genuinely connected data system.</li>
+<li>Entities may share data without sufficient metadata or quality controls.</li>
+<li>Common standards may be treated as optional.</li>
+<li>Data may be copied centrally without clear ownership or maintenance responsibilities.</li>
+</ul>
+</section>
+<section id="questions-you-should-raise-2" class="level4" data-number="12.4.3.3">
+<h4 data-number="12.4.3.3" class="anchored" data-anchor-id="questions-you-should-raise-2"><span class="header-section-number">12.4.3.3</span> Questions you should raise</h4>
+<ul>
+<li>What does it mean for data to be interoperable?</li>
+<li>Who remains accountable for data contributed to the Commons?</li>
+<li>What minimum metadata and quality standards should apply?</li>
+<li>How should access and reuse decisions be recorded?</li>
+</ul>
+</section>
+</section>
+<section id="role-4-humanitarian-protection-legal-and-ethics-adviser" class="level3" data-number="12.4.4">
+<h3 data-number="12.4.4" class="anchored" data-anchor-id="role-4-humanitarian-protection-legal-and-ethics-adviser"><span class="header-section-number">12.4.4</span> Role 4: Humanitarian Protection, Legal, and Ethics Adviser</h3>
+<p>You are responsible for privacy, protection, legal compliance, security, and ethical use.</p>
+<section id="your-priorities-3" class="level4" data-number="12.4.4.1">
+<h4 data-number="12.4.4.1" class="anchored" data-anchor-id="your-priorities-3"><span class="header-section-number">12.4.4.1</span> Your priorities</h4>
+<ul>
+<li>Prevent data sharing from causing harm to vulnerable people.</li>
+<li>Ensure that access is necessary, proportionate, and purpose-specific.</li>
+<li>Establish clear restrictions for highly sensitive data.</li>
+<li>Require security controls, audit trails, retention rules, and incident procedures.</li>
+<li>Ensure that new analytical or AI uses receive appropriate review.</li>
+</ul>
+</section>
+<section id="your-concerns-3" class="level4" data-number="12.4.4.2">
+<h4 data-number="12.4.4.2" class="anchored" data-anchor-id="your-concerns-3"><span class="header-section-number">12.4.4.2</span> Your concerns</h4>
+<ul>
+<li>“Openly shared” may be interpreted too broadly.</li>
+<li>Data collected for humanitarian assistance could later be used for political, immigration, security, or enforcement purposes.</li>
+<li>Combining datasets may reveal sensitive information even when individual sources appear low-risk.</li>
+<li>Pressure for rapid delivery may weaken protection safeguards.</li>
+</ul>
+</section>
+<section id="questions-you-should-raise-3" class="level4" data-number="12.4.4.3">
+<h4 data-number="12.4.4.3" class="anchored" data-anchor-id="questions-you-should-raise-3"><span class="header-section-number">12.4.4.3</span> Questions you should raise</h4>
+<ul>
+<li>Which categories of data must remain separate or restricted?</li>
+<li>Who decides whether sharing creates an unacceptable risk?</li>
+<li>Can aggregated or de-identified data meet the intended need?</li>
+<li>What forms of redress and accountability are required?</li>
+</ul>
+</section>
+</section>
+<section id="role-5-representative-of-a-participating-un-entity-or-member-state-partner" class="level3" data-number="12.4.5">
+<h3 data-number="12.4.5" class="anchored" data-anchor-id="role-5-representative-of-a-participating-un-entity-or-member-state-partner"><span class="header-section-number">12.4.5</span> Role 5: Representative of a Participating UN Entity or Member State Partner</h3>
+<p>You represent an organisation that produces valuable data but has limited financial and technical capacity.</p>
+<section id="your-priorities-4" class="level4" data-number="12.4.5.1">
+<h4 data-number="12.4.5.1" class="anchored" data-anchor-id="your-priorities-4"><span class="header-section-number">12.4.5.1</span> Your priorities</h4>
+<ul>
+<li>Preserve the ability to meet your organisation’s specific mandate.</li>
+<li>Ensure that shared systems respond to local and operational needs.</li>
+<li>Receive financial and technical support for participation.</li>
+<li>Avoid unfunded requirements or forced replacement of effective systems.</li>
+<li>Ensure that Member States and local partners benefit from the transformation.</li>
+</ul>
+</section>
+<section id="your-concerns-4" class="level4" data-number="12.4.5.2">
+<h4 data-number="12.4.5.2" class="anchored" data-anchor-id="your-concerns-4"><span class="header-section-number">12.4.5.2</span> Your concerns</h4>
+<ul>
+<li>Larger entities may control the platform and governance process.</li>
+<li>Central standards may not reflect local contexts.</li>
+<li>Your organisation may contribute data but receive little practical benefit.</li>
+<li>Shared infrastructure may create new costs or dependencies.</li>
+<li>Data may be interpreted without sufficient country or sector context.</li>
+</ul>
+</section>
+<section id="questions-you-should-raise-4" class="level4" data-number="12.4.5.3">
+<h4 data-number="12.4.5.3" class="anchored" data-anchor-id="questions-you-should-raise-4"><span class="header-section-number">12.4.5.3</span> Questions you should raise</h4>
+<ul>
+<li>What incentives and support will participating entities receive?</li>
+<li>How will smaller organisations influence decisions?</li>
+<li>Who pays for system integration and ongoing maintenance?</li>
+<li>How will local context and Member State needs be preserved?</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="group-task" class="level2" data-number="12.5">
+<h2 data-number="12.5" class="anchored" data-anchor-id="group-task"><span class="header-section-number">12.5</span> Group task</h2>
+<p>Your group must prepare a recommendation for the first phase of the Technology Accelerator Platform and UN System Data Commons.</p>
+<p>The recommendation must address the following five areas.</p>
+<section id="select-an-implementation-model" class="level3" data-number="12.5.1">
+<h3 data-number="12.5.1" class="anchored" data-anchor-id="select-an-implementation-model"><span class="header-section-number">12.5.1</span> Select an implementation model</h3>
+<p>Choose one of the following approaches.</p>
+<section id="option-a-centralised-platform" class="level4" data-number="12.5.1.1">
+<h4 data-number="12.5.1.1" class="anchored" data-anchor-id="option-a-centralised-platform"><span class="header-section-number">12.5.1.1</span> Option A: Centralised platform</h4>
+<p>Create a common UN technology and data environment. Participating entities would progressively migrate selected systems and datasets onto the shared platform.</p>
+<p><strong>Potential benefits</strong></p>
+<ul>
+<li>Stronger standardisation.</li>
+<li>Lower duplication.</li>
+<li>Easier central security and support.</li>
+<li>Greater potential for economies of scale.</li>
+</ul>
+<p><strong>Potential risks</strong></p>
+<ul>
+<li>Loss of entity autonomy.</li>
+<li>Complex migration.</li>
+<li>A possible single point of failure.</li>
+<li>Difficulty accommodating specialist needs.</li>
+</ul>
+</section>
+<section id="option-b-federated-network" class="level4" data-number="12.5.1.2">
+<h4 data-number="12.5.1.2" class="anchored" data-anchor-id="option-b-federated-network"><span class="header-section-number">12.5.1.2</span> Option B: Federated network</h4>
+<p>Entities would retain their existing platforms but connect them through shared standards, interfaces, identity services, and governance arrangements.</p>
+<p><strong>Potential benefits</strong></p>
+<ul>
+<li>Preserves existing investments.</li>
+<li>Supports organisational independence.</li>
+<li>Allows gradual implementation.</li>
+<li>Reduces the need for large-scale migration.</li>
+</ul>
+<p><strong>Potential risks</strong></p>
+<ul>
+<li>Continued duplication.</li>
+<li>Inconsistent implementation.</li>
+<li>More complex integration.</li>
+<li>Greater reliance on voluntary cooperation.</li>
+</ul>
+</section>
+<section id="option-c-hybrid-phased-model" class="level4" data-number="12.5.1.3">
+<h4 data-number="12.5.1.3" class="anchored" data-anchor-id="option-c-hybrid-phased-model"><span class="header-section-number">12.5.1.3</span> Option C: Hybrid, phased model</h4>
+<p>The UN would centralise selected common services while connecting specialist systems through a federated data architecture.</p>
+<p>The pilot would focus on a limited number of datasets and shared services before expansion.</p>
+<p><strong>Potential benefits</strong></p>
+<ul>
+<li>Balances standardisation and autonomy.</li>
+<li>Allows early delivery and learning.</li>
+<li>Prioritises high-value areas.</li>
+<li>Reduces immediate disruption.</li>
+</ul>
+<p><strong>Potential risks</strong></p>
+<ul>
+<li>Boundaries between central and local responsibilities may remain unclear.</li>
+<li>Temporary arrangements may become permanent.</li>
+<li>Savings may take longer to appear.</li>
+<li>Governance may become complex.</li>
+</ul>
+<p>Your group may modify one of these models, but you must explain the changes.</p>
+</section>
+</section>
+<section id="define-the-governance-structure" class="level3" data-number="12.5.2">
+<h3 data-number="12.5.2" class="anchored" data-anchor-id="define-the-governance-structure"><span class="header-section-number">12.5.2</span> Define the governance structure</h3>
+<p>Decide which bodies and roles are required.</p>
+<p>Possible elements include:</p>
+<ul>
+<li>a UN System Technology and Data Board;</li>
+<li>an executive programme sponsor;</li>
+<li>a Technology Accelerator Platform team;</li>
+<li>a Data Commons governance office;</li>
+<li>entity-level data owners;</li>
+<li>entity-level data stewards;</li>
+<li>technical service owners;</li>
+<li>a protection, privacy, security, and ethics panel;</li>
+<li>representatives of smaller UN entities;</li>
+<li>Member State or regional representatives; and</li>
+<li>specialist working groups for standards and interoperability.</li>
+</ul>
+<p>Your governance structure must clarify:</p>
+<ul>
+<li>who sets mandatory standards;</li>
+<li>who approves exceptions;</li>
+<li>who owns contributed data;</li>
+<li>who resolves disputes;</li>
+<li>who is accountable for security and quality; and</li>
+<li>who can approve expansion beyond the pilot.</li>
+</ul>
+</section>
+<section id="establish-participation-and-financing-rules" class="level3" data-number="12.5.3">
+<h3 data-number="12.5.3" class="anchored" data-anchor-id="establish-participation-and-financing-rules"><span class="header-section-number">12.5.3</span> Establish participation and financing rules</h3>
+<p>Agree on a model for funding shared infrastructure and encouraging entities to participate.</p>
+<p>Possible approaches include:</p>
+<ul>
+<li>contributions based on organisational size;</li>
+<li>contributions based on technology expenditure;</li>
+<li>a central transformation fund;</li>
+<li>usage-based charges;</li>
+<li>donor or Member State funding;</li>
+<li>subsidies for smaller entities;</li>
+<li>mandatory use of shared services for selected functions; and</li>
+<li>financial incentives for retiring duplicative systems.</li>
+</ul>
+<p>Your group should also decide what happens when an entity:</p>
+<ul>
+<li>refuses to adopt a mandatory standard;</li>
+<li>continues operating a duplicative platform;</li>
+<li>cannot afford integration work; or</li>
+<li>wants the benefits of shared services without contributing resources.</li>
+</ul>
+</section>
+<section id="set-minimum-pilot-conditions" class="level3" data-number="12.5.4">
+<h3 data-number="12.5.4" class="anchored" data-anchor-id="set-minimum-pilot-conditions"><span class="header-section-number">12.5.4</span> Set minimum pilot conditions</h3>
+<p>Select <strong>five mandatory conditions</strong> that must be satisfied before the crisis-response pilot goes live.</p>
+<p>Possible conditions include:</p>
+<ul>
+<li>a clearly defined operational purpose;</li>
+<li>named data owners and stewards;</li>
+<li>agreed common identifiers and definitions;</li>
+<li>minimum metadata requirements;</li>
+<li>documented data lineage;</li>
+<li>quality thresholds;</li>
+<li>standard application programming interfaces;</li>
+<li>role-based access;</li>
+<li>privacy and protection assessments;</li>
+<li>security testing;</li>
+<li>rules for restricted data;</li>
+<li>audit logging;</li>
+<li>incident-response procedures;</li>
+<li>retention and deletion rules;</li>
+<li>financing commitments;</li>
+<li>entity participation agreements;</li>
+<li>Member State consultation; and</li>
+<li>a formal review before expansion.</li>
+</ul>
+<p>The group must prioritise only five.</p>
+</section>
+<section id="decide-what-should-be-shared" class="level3" data-number="12.5.5">
+<h3 data-number="12.5.5" class="anchored" data-anchor-id="decide-what-should-be-shared"><span class="header-section-number">12.5.5</span> Decide what should be shared</h3>
+<p>Classify the pilot’s data into three categories:</p>
+<section id="category-1-shared-by-default" class="level4" data-number="12.5.5.1">
+<h4 data-number="12.5.5.1" class="anchored" data-anchor-id="category-1-shared-by-default"><span class="header-section-number">12.5.5.1</span> Category 1: Shared by default</h4>
+<p>Data that can be made widely available across participating entities or publicly released.</p>
+</section>
+<section id="category-2-shared-under-controlled-access" class="level4" data-number="12.5.5.2">
+<h4 data-number="12.5.5.2" class="anchored" data-anchor-id="category-2-shared-under-controlled-access"><span class="header-section-number">12.5.5.2</span> Category 2: Shared under controlled access</h4>
+<p>Data that may be used only by authorised users for defined purposes.</p>
+</section>
+<section id="category-3-retained-separately" class="level4" data-number="12.5.5.3">
+<h4 data-number="12.5.5.3" class="anchored" data-anchor-id="category-3-retained-separately"><span class="header-section-number">12.5.5.3</span> Category 3: Retained separately</h4>
+<p>Data that should not enter the shared environment because the risks or restrictions outweigh the benefits.</p>
+<p>Consider the treatment of:</p>
+<ul>
+<li>aggregated food-security statistics;</li>
+<li>health-facility capacity;</li>
+<li>individual health records;</li>
+<li>locations of displaced populations;</li>
+<li>humanitarian beneficiary lists;</li>
+<li>school closure data;</li>
+<li>satellite and environmental data;</li>
+<li>conflict incident data;</li>
+<li>staff security information; and</li>
+<li>free-text field reports.</li>
+</ul>
+<p>For controlled or excluded data, identify the safeguards or evidence required before broader sharing could be considered.</p>
+</section>
+</section>
+</section>
+<section id="required-group-output" class="level2" data-number="12.6">
+<h2 data-number="12.6" class="anchored" data-anchor-id="required-group-output"><span class="header-section-number">12.6</span> Required group output</h2>
+<p>Prepare a five-minute report-back containing:</p>
+<ol type="1">
+<li>Your chosen implementation model</li>
+<li>Your proposed governance structure</li>
+<li>Your financing and participation approach</li>
+<li>Five mandatory conditions for the pilot</li>
+<li>One example of data in each sharing category</li>
+<li>Your most important unresolved risk</li>
+</ol>
+<p>Each stakeholder should briefly state:</p>
+<ul>
+<li>what they supported;</li>
+<li>what compromise they made; and</li>
+<li>whether they would approve the pilot.</li>
+</ul>
+</section>
+<section id="prioritised-discussion-questions" class="level2" data-number="12.7">
+<h2 data-number="12.7" class="anchored" data-anchor-id="prioritised-discussion-questions"><span class="header-section-number">12.7</span> Prioritised discussion questions</h2>
+<p><strong>1. Should the UN adopt a centralised, federated, or hybrid model for shared technology and data?</strong></p>
+<p>Consider cost, interoperability, security, resilience, organisational independence, and the feasibility of implementation across diverse entities.</p>
+<p><strong>2. Which decisions should be made at the UN system level, and which should remain with individual entities?</strong></p>
+<p>Distinguish responsibilities for standards, infrastructure, data ownership, access, quality, security, and operational use.</p>
+<p><strong>3. What five controls must be mandatory before data is integrated into the UN System Data Commons?</strong></p>
+<p>Prioritise the controls that are most important for producing useful, secure, and trustworthy information.</p>
+<p><strong>4. How should the UN define “shareable data,” and who should have authority to approve restrictions or exceptions?</strong></p>
+<p>Consider privacy, humanitarian protection, political sensitivity, public benefit, local context, and the risk of future data misuse.</p>
+<p><strong>5. What financing and governance incentives would make organisations genuinely collaborate rather than continue building separate systems?</strong></p>
+<p>Consider mandatory standards, shared funding, subsidies, cost recovery, representation in decision-making, technical support, and consequences for unnecessary duplication.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./case_study_nrsp.html" class="pagination-link" aria-label="Governing the Northbridge Vulnerability Dashboard">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Governing the Northbridge Vulnerability Dashboard</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./case_study_nagpra.html" class="pagination-link" aria-label="Reclaiming Authority over Indigenous Data">
+        <span class="nav-page-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Reclaiming Authority over Indigenous Data</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/data4decisonmakers/data-concepts-applications/edit/main/00-case-study-un.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
