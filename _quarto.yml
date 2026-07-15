@@ -40,6 +40,9 @@ book:
         - 00-case-study-india.qmd
         - 00-case-study-mozambique.qmd
         - 00-case-study-singapore.qmd
+        - 00-case-study-nrsp.qmd
+        - 00-case-study-un.qmd
+        - 00-case-study-nagpra.qmd
     - part: Data Management
       chapters:
         - 08-data-security.qmd
@@ -76,7 +79,7 @@ csl: apa-single-spaced.csl
 
 format:
   html:
-    theme: sandstone
+    theme: zephyr
     highlight-style: breeze-light
     toc: true
     toc-depth: 3

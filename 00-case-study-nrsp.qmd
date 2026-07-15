@@ -1,0 +1,294 @@
+---
+output-file: case_study_nrsp.html
+---
+
+# Governing the Northbridge Vulnerability Dashboard
+
+## Scenario
+
+The fictional **Northbridge Regional Services Partnership**, or NRSP, brings together local government, health services, housing associations, transport authorities, police, and voluntary organisations.
+
+The partnership wants to create a **Vulnerability and Service Demand Dashboard** before winter. The dashboard would combine information about:
+
+- rent arrears and threatened evictions;
+- temporary accommodation;
+- missed health appointments;
+- emergency hospital admissions;
+- school attendance;
+- demand for food and debt assistance;
+- transport accessibility;
+- energy hardship; and
+- previous contact with social services.
+
+Senior leaders want to use the dashboard to identify neighbourhoods experiencing increasing pressure and to allocate outreach teams, emergency funding, and service capacity.
+
+However, the partnership does not yet have a common data governance framework.
+
+The participating organisations use different data definitions, systems, update schedules, quality controls, and access procedures. It is also unclear who is accountable for the quality and authorised use of each dataset.
+
+An experimental version of the dashboard has already exposed several problems:
+
+- One neighbourhood appeared to have the highest vulnerability level, but this was partly because its housing provider submitted more current and complete data than other providers.
+- Missed health appointments were treated as an indicator of vulnerability, although they may also reflect transport difficulties, inaccessible booking systems, caring responsibilities, or inaccurate contact details.
+- Analysts included free-text comments entered by frontline workers, even though the comments were unverified and had not originally been collected for risk assessment.
+- Community representatives are concerned that the dashboard could stigmatise neighbourhoods, reinforce historic inequalities, or be used for enforcement rather than support.
+- Senior leaders still want an initial version of the dashboard within six months.
+
+The executive board must decide whether and how to proceed.
+
+## Stakeholder roles
+
+Assign one role to each of your team members. In groups with fewer than five members, participants may combine roles.
+
+### Role 1: Executive Sponsor
+
+You are a senior leader responsible for ensuring that the partnership responds to winter pressures.
+
+#### Your priorities
+
+- Deliver visible improvements quickly.
+- Ensure that the project supports strategic public-service objectives.
+- Avoid unnecessary delays or bureaucracy.
+- Clarify who is accountable for major decisions.
+- Demonstrate value to partner organisations and elected officials.
+
+#### Your concerns
+
+- A lengthy governance programme may delay urgent action.
+- Different organisations may refuse to cooperate.
+- The project could fail publicly if the data is unreliable or misused.
+- Governance structures may become too complicated for senior leaders to use.
+
+#### Questions you should raise
+
+- What decisions will the dashboard support?
+- Who has final authority to approve or stop the project?
+- What must be in place before launch?
+- How will success be measured?
+
+### Role 2: Chief Data Officer or Data Governance Lead
+
+You are responsible for designing a sustainable governance framework across the partnership.
+
+#### Your priorities
+
+- Establish clear data ownership and stewardship.
+- Introduce common definitions, standards, and quality controls.
+- Create a data catalogue and documented approval process.
+- Ensure that governance is proportionate to risk.
+- Build a model that can be reused for future data initiatives.
+
+#### Your concerns
+
+- The project may proceed before responsibilities are clear.
+- Temporary workarounds may become permanent.
+- Voluntary standards may not be followed.
+- The partnership may focus on technology while ignoring governance.
+
+#### Questions you should raise
+
+- Who owns each critical dataset?
+- Which data elements require common definitions?
+- What quality thresholds should apply?
+- How will issues and exceptions be escalated?
+
+
+### Role 3: Service or Operational Data Owner
+
+You are a senior manager from a housing, health, or social-service organisation that will provide data to the dashboard.
+
+#### Your priorities
+
+- Ensure that the data is interpreted in its operational context.
+- Protect the ability of your organisation to deliver services.
+- Avoid being held responsible for errors caused by other systems or organisations.
+- Ensure that data requests are realistic and proportionate.
+- Obtain resources to improve poor-quality data.
+
+#### Your concerns
+
+- Your data may be used for purposes for which it was not collected.
+- Dashboard users may misinterpret operational indicators.
+- Your organisation may be blamed for incomplete or outdated information.
+- New governance requirements may create additional workload.
+
+#### Questions you should raise
+
+- Is the proposed use consistent with the original purpose of the data?
+- What limitations must be shown to dashboard users?
+- Who will pay for quality improvements?
+- How can operational staff correct errors?
+
+### Role 4: Legal, Privacy, Security, and Ethics Adviser
+
+You are responsible for assessing legal compliance, information security, ethical risks, and public-interest considerations.
+
+#### Your priorities
+
+- Ensure that data use is lawful, necessary, and proportionate.
+- Minimise the use of personal and sensitive information.
+- Establish appropriate access, security, retention, and audit controls.
+- Assess potential bias, discrimination, and unintended harm.
+- Provide mechanisms for transparency, challenge, and redress.
+
+#### Your concerns
+
+- Data may be shared on the assumption that a public benefit justifies any use.
+- Person-level information may be used when aggregated data would be sufficient.
+- Historical inequalities may be reproduced through risk indicators.
+- Data could later be reused for enforcement or surveillance.
+
+#### Questions you should raise
+
+- What is the lawful and documented purpose of each data use?
+- Can less sensitive data achieve the same result?
+- Who can access the information, and for how long?
+- What ethical review and public safeguards are required?
+
+### Role 5: Community and Public Representative
+
+You represent residents, voluntary organisations, and groups likely to be affected by the dashboard.
+
+#### Your priorities
+
+- Ensure that the system produces meaningful public benefit.
+- Prevent neighbourhoods or individuals from being unfairly labelled.
+- Make the project understandable to the public.
+- Ensure that residents can question or correct inaccurate information.
+- Keep the focus on support and prevention rather than surveillance or enforcement.
+
+#### Your concerns
+
+- Residents may not know that their data is being combined.
+- A vulnerability score may be treated as objective when it reflects incomplete or biased data.
+- Communities may experience increased monitoring without receiving additional support.
+- Consultation may occur only after important decisions have already been made.
+
+#### Questions you should raise
+
+- How will affected communities participate in governance?
+- What will residents be told about the dashboard?
+- How can people challenge inaccurate or unfair decisions?
+- What evidence will show that the dashboard benefits communities?
+
+## Group task
+
+Your group is the **NRSP Data Governance Decision Panel**.
+
+You must agree on a recommendation to the executive board covering the following areas.
+
+### Decide whether and how the project should proceed
+
+Choose one of the following approaches:
+
+#### Option A: Build the dashboard first
+
+Develop the dashboard quickly using available data and introduce formal governance later.
+
+#### Option B: Establish the full governance framework first
+
+Do not begin integration until roles, standards, policies, and assurance processes have been fully implemented.
+
+#### Option C: Use a phased, risk-based approach
+
+Develop a limited pilot while establishing minimum governance controls. Expand the dashboard only after reviewing the pilot.
+
+Your group may modify one of these options, but you must explain your reasoning.
+
+### Define the minimum governance structure
+
+Identify the roles or bodies that must exist before launch.
+
+Consider whether the partnership needs:
+
+- an executive data governance board;
+- named data owners;
+- data stewards;
+- a central data governance office;
+- technical custodians;
+- an ethics and public-interest panel; and
+- community representation.
+
+Clarify who is accountable for final decisions.
+
+### Set launch conditions
+
+Agree on the minimum controls that must be completed before the dashboard can be used.
+
+These may include:
+
+- a clearly documented purpose;
+- named owners and stewards;
+- common definitions;
+- minimum quality thresholds;
+- a data catalogue entry;
+- legal and ethical review;
+- role-based access;
+- security and audit controls;
+- retention and deletion rules;
+- public communication;
+- a correction or challenge process; and
+- a scheduled review.
+
+### Decide what data should be included
+
+Determine whether the pilot should use:
+
+- neighbourhood-level aggregated data only;
+- selected person-level data;
+- missed health appointments;
+- free-text frontline comments; and
+- datasets that do not meet the same update or quality standards.
+
+For any excluded data, state what evidence or controls would be required before it could be introduced.
+
+### Define success
+
+Select three to five measures that would show whether the governance framework and dashboard are working.
+
+Possible measures include:
+
+- improved data quality;
+- percentage of datasets with named owners;
+- compliance with common standards;
+- speed of appropriate data access;
+- reduction in unresolved quality issues;
+- absence of inappropriate access;
+- user confidence in the dashboard;
+- resident trust;
+- improved allocation of services; and
+- evidence of better outcomes for vulnerable communities.
+
+## Required group output
+
+Prepare a short report-back/presentation containing:
+
+1. Your chosen implementation approach
+2. Your proposed governance structure
+3. Five mandatory conditions for launch
+4. Your decision on which data to include or exclude
+5. Your main unresolved risk
+
+Each stakeholder should briefly explain whether the final recommendation addresses their priorities and concerns.
+
+## Prioritised discussion questions
+
+**1. Which implementation approach should the partnership adopt, and why?**
+
+Compare the need for rapid delivery with the risks of proceeding without adequate governance.
+
+**2. Who should be accountable for the quality, access, interpretation, and authorised use of the dashboard data?**
+
+Distinguish between business ownership, data stewardship, technical custody, and executive accountability.
+
+**3. What five governance controls must be mandatory before the dashboard is used to allocate resources?**
+
+Prioritise the controls rather than creating an exhaustive list.
+
+**4. Which proposed data sources or indicators should be excluded from the initial pilot?**
+
+Consider data quality, purpose, proportionality, fairness, and the risk of misinterpretation.
+
+**5. How should the partnership involve residents and communicate uncertainty, limitations, and potential harms?**
+
+Consider transparency, community participation, correction processes, human oversight, and public trust.
