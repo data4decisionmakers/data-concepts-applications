@@ -1,0 +1,478 @@
+---
+output-file: case_study_nagpra.html
+---
+
+# Reclaiming Authority over Indigenous Data
+
+## Scenario
+
+### Background
+
+Indigenous data include information and knowledge about Indigenous peoples, citizens, communities, lands, resources, cultures, and interests. This may include population statistics, administrative records, health data, environmental observations, maps, research findings, oral histories, cultural knowledge, images, songs, and information gathered through digital platforms.
+
+Indigenous data sovereignty is the right of Indigenous peoples and nations to govern the collection, ownership, and application of their own data. It derives from the inherent right of Indigenous nations to govern their peoples, lands, and resources.
+
+Indigenous data governance is how this sovereignty is put into practice. It concerns the authority to decide:
+
+- what data are collected;
+- why they are collected;
+- who owns or controls them;
+- how they are classified and described;
+- who may access them;
+- how they may be analysed;
+- whether they may be linked or reused;
+- how findings are interpreted;
+- how results are communicated; and
+- what benefits return to the community.
+
+Indigenous data governance differs from corporate data governance. Its primary purposes are not simply efficiency, compliance, or financial value. It is grounded in sovereignty, collective benefit, cultural values, responsibility, stewardship, reciprocity, and the wellbeing of past, present, and future generations.
+
+The underlying case study also highlights a persistent problem of **data dependency**. Large quantities of data may be collected about Indigenous peoples by governments, researchers, service providers, and corporations, while Indigenous nations lack access to accurate, relevant, and timely data for their own governance. Data may be externally owned, based on inappropriate categories, interpreted through a deficit lens, or used without meaningful Indigenous control.
+
+The fictional **Red Willow Nation** is a sovereign Indigenous nation in the United States. Its government is developing a ten-year plan covering:
+
+- community health;
+- housing;
+- language revitalisation;
+- education;
+- environmental protection;
+- economic development; and
+- emergency preparedness.
+
+The Nation needs accurate and relevant data to make decisions, allocate resources, negotiate with federal and state agencies, and evaluate whether programmes are benefiting its citizens.
+
+However, much of the available data about Red Willow citizens, lands, and resources is held by external organisations.
+
+These organisations include:
+
+- a federal health agency;
+- a state education department;
+- a university research centre;
+- a regional hospital network;
+- an environmental nonprofit organisation;
+- a commercial laboratory; and
+- several technology suppliers.
+
+The Nation also holds its own enrolment, service-delivery, land, cultural, and community-programme records, but these are stored across separate departments with inconsistent practices and limited technical infrastructure.
+
+## The proposed partnership
+
+A university research centre and a federal health agency have offered to create a **Red Willow Community Wellbeing Data Platform**.
+
+The platform would combine:
+
+- tribal enrolment and household information;
+- health-service records;
+- education data;
+- housing conditions;
+- employment data;
+- environmental exposure data;
+- land-use information;
+- community surveys;
+- language-programme participation; and
+- previously collected research data.
+
+The external partners argue that linking these datasets could help identify unmet needs and improve funding applications. They offer to provide technical staff, cloud infrastructure, analytical tools, and five years of financial support.
+
+The university also wants to use de-identified data from the platform for future research. Its standard funding conditions encourage researchers to place data in repositories so that other researchers can reuse them.
+
+The federal agency expects the resulting indicators to be comparable with national datasets. It therefore proposes using standard federal definitions and classifications.
+
+The Red Willow Tribal Council supports better evidence for decision-making but has not approved the proposed governance model.
+
+## Emerging concerns
+
+### Authority and ownership
+
+The draft agreement describes Red Willow Nation as a “community stakeholder.” It gives the university responsibility for hosting the platform and joint ownership of the resulting database.
+
+The university argues that joint ownership is appropriate because it is contributing the technology, research design, and staff.
+
+Several Tribal Council members object. They argue that the Nation is a sovereign rightsholder and that external technical contributions do not create an equal right to govern Indigenous data.
+
+### Data relevance and quality
+
+Federal and state records use categories that do not align with tribal citizenship or the Nation’s own definitions.
+
+For example:
+
+- federal race data are based on individual self-identification rather than tribal citizenship;
+- state education data do not consistently identify Red Willow students;
+- environmental data use geographic boundaries that exclude culturally important areas;
+- health statistics focus mainly on illness and disadvantage; and
+- existing surveys do not measure cultural connection, language use, community strengths, or traditional food access.
+
+The Tribal Planning Department is concerned that the platform could reproduce inaccurate or deficit-based descriptions of the Nation.
+
+### Secondary use and open data
+
+The university wants broad consent to reuse de-identified information in future studies.
+
+Researchers argue that open and reusable data can increase scientific value and reduce duplication. They also note that excluding Indigenous data from major datasets may make Indigenous peoples invisible in health and technology research.
+
+Community representatives respond that de-identification does not resolve questions of collective identity, group harm, cultural sensitivity, or sovereign authority. They are also concerned that future research questions may conflict with community values.
+
+### Sensitive cultural and environmental data
+
+Some proposed datasets include:
+
+- locations of sacred and ceremonial sites;
+- traditional ecological knowledge;
+- oral histories;
+- information about medicinal plants;
+- language recordings;
+- burial-site information; and
+- locations of threatened natural resources.
+
+The environmental non-profit believes some location data should be published to strengthen legal protection of the land. Cultural advisers warn that disclosure could lead to theft, damage, commercial exploitation, or inappropriate access.
+
+### Capacity and dependency
+
+The Nation has only two employees working full time on data and information management. It does not currently have the infrastructure to host the full platform or independently perform all proposed analyses.
+
+Rejecting the partnership could delay urgently needed work. Accepting the university’s standard model could deepen dependency on external expertise and systems.
+
+The Tribal Council must decide how to obtain needed capacity without surrendering long-term control.
+
+### Benefit and accountability
+
+The proposal promises improved research and planning, but it does not specify:
+
+- which decisions the platform must support;
+- how benefits will be measured;
+- who approves research questions;
+- whether the Nation may refuse publication;
+- whether community members will be trained and employed;
+- what happens after external funding ends;
+- who is responsible for correcting inaccurate data; or
+- what remedies apply if data are misused.
+
+## The immediate decision
+
+The Red Willow Tribal Council has created a **Data Sovereignty and Governance Negotiation Panel**.
+
+Your group is that panel.
+
+You must recommend whether the Nation should:
+
+### Option A: Accept the proposed partnership with limited amendments
+
+Proceed quickly and rely mainly on the university and federal agency for technical governance.
+
+### Option B: Reject the partnership and build an independent tribal platform
+
+Retain full control, even if implementation takes longer and requires new funding.
+
+#### Option C: Negotiate an Indigenous-led partnership
+
+Proceed only if the agreement recognises the Nation’s sovereign authority and establishes Indigenous-led governance, ownership, capacity development, and purpose-specific access.
+
+### Option D: Adopt a phased approach
+
+Begin with a small number of low- or moderate-sensitivity datasets while the Nation develops its governance laws, review mechanisms, workforce, and technical infrastructure.
+
+The group may combine or modify these options, but it must explain its decision.
+
+## Stakeholder roles
+
+Assign one role to each participant. In groups with fewer than five members, participants may combine roles.
+
+### Role 1: Tribal Council Leader
+
+You are an elected leader of Red Willow Nation and chair the negotiation panel.
+
+#### Your priorities
+
+- Protect the Nation’s sovereignty and long-term interests.
+- Ensure that data contribute to nation rebuilding and effective government.
+- Obtain useful information for urgent policy and funding decisions.
+- Maintain accountability to citizens, elders, and future generations.
+- Reach an agreement that the Tribal Council can realistically implement.
+
+#### Your concerns
+
+- The Nation may surrender authority in exchange for short-term resources.
+- Delaying the project may leave leaders without data needed for urgent decisions.
+- A governance framework may be approved without adequate staff or funding.
+- External organisations may treat the Nation as a stakeholder rather than a sovereign government.
+
+#### Questions you should raise
+
+- Which decisions must remain exclusively with the Nation?
+- What benefits must the partnership deliver?
+- What should happen if partners fail to follow tribal requirements?
+- Is the proposed model sustainable after the grant ends?
+
+### Role 2: Tribal Data Governance and Planning Director
+
+You lead the Nation’s data, planning, and administrative improvement work.
+
+#### Your priorities
+
+- Build a strong tribal data system.
+- Establish data ownership, stewardship, quality, metadata, and access rules.
+- Obtain accurate and relevant data for tribal decision-making.
+- Reduce long-term dependence on external organisations.
+- Develop a tribal workforce and technical infrastructure.
+
+#### Your concerns
+
+- Tribal departments currently use inconsistent data practices.
+- External datasets may not match tribal definitions or priorities.
+- The Nation may lack the capacity to enforce a complex agreement.
+- Data may be copied into an external platform without clear lineage or correction processes.
+
+#### Questions you should raise
+
+- Which data assets are most important for tribal governance?
+- What minimum data standards should the Nation establish?
+- Who will be responsible for quality and correction?
+- What training, infrastructure, and knowledge transfer must be funded?
+
+### Role 3: Cultural Knowledge Holder and Community Representative
+
+You represent elders, cultural practitioners, families, and community members whose information and knowledge may be included.
+
+#### Your priorities
+
+- Ensure that cultural protocols govern culturally sensitive data.
+- Protect collective knowledge from inappropriate access or commercial use.
+- Prevent research from describing the Nation only through problems and deficits.
+- Require transparency, reciprocity, and meaningful community benefit.
+- Protect responsibilities to ancestors and future generations.
+
+#### Your concerns
+
+- Individual consent may be treated as sufficient for collectively held knowledge.
+- De-identification may not prevent group or cultural harm.
+- Sacred knowledge could be made accessible to unauthorised people.
+- Community consultation may occur after important decisions have already been made.
+
+#### Questions you should raise
+
+- Which information should never enter the proposed platform?
+- Who has cultural authority to approve access?
+- How should community values shape indicators and interpretation?
+- How will citizens challenge harmful or inaccurate representations?
+
+### Role 4: University Research and Technology Partner
+
+You represent the university offering technical infrastructure and research expertise.
+
+#### Your priorities
+
+- Build a technically robust and useful platform.
+- Produce research that improves health and community wellbeing.
+- Meet funding, research-integrity, and data-management requirements.
+- Make appropriate data reusable for future scientific work.
+- Establish a partnership that can attract continued investment.
+
+#### Your concerns
+
+- Highly restrictive rules may make research impractical.
+- Project delays may jeopardise funding.
+- Different approval processes for each use may create high administrative costs.
+- The Nation may expect the university to assume risks without sufficient operational authority.
+
+#### Questions you should raise
+
+- What forms of research reuse could be approved in advance?
+- How will review decisions be made within project timelines?
+- What technical responsibilities should remain with the university?
+- How can scientific transparency coexist with tribal control?
+
+### Role 5: Federal Agency and Funding Representative
+
+You represent the federal agency providing data and contributing funding.
+
+#### Your priorities
+
+- Improve public programmes and health outcomes.
+- Support comparability with national indicators.
+- Ensure lawful, secure, and accountable use of federal data.
+- Demonstrate responsible use of public funding.
+- Develop a model that may inform future government-to-government partnerships.
+
+#### Your concerns
+
+- Tribal and federal definitions may not align.
+- Agency rules may limit the transfer or localisation of some records.
+- A highly customised system may be difficult to sustain.
+- Other federal programmes may expect access to project outputs.
+
+### Questions you should raise
+
+- How should federal and tribal standards be reconciled?
+- What nation-to-nation agreement is required?
+- Which outputs can be reported publicly?
+- How should future federal requests for access be handled?
+
+## Group task
+
+The panel must negotiate a recommended governance model for the Red Willow Community Wellbeing Data Platform.
+
+Your recommendation must address the following areas.
+
+### Define the Nation’s authority
+
+Decide which powers must remain with Red Willow Nation.
+
+Consider authority over:
+
+- data collection;
+- ownership and custody;
+- access;
+- linkage;
+- analysis;
+- interpretation;
+- publication;
+- secondary use;
+- commercial use;
+- retention and destruction; and
+- approval of external researchers.
+
+Clarify whether the university or federal agency may own any part of the resulting data resource.
+
+### Design the governance structure
+
+Determine which institutions and roles are needed.
+
+Possible elements include:
+
+- the Tribal Council;
+- a tribal data governance board;
+- a cultural knowledge committee;
+- a tribal research review board;
+- a community advisory group;
+- tribal data owners and stewards;
+- a privacy and security officer;
+- a joint technical working group;
+- an external-partner liaison; and
+- an appeals or dispute-resolution process.
+
+Your structure must specify:
+
+- who makes final decisions;
+- who advises;
+- who performs technical work;
+- who approves culturally sensitive uses;
+- who monitors compliance; and
+- how conflicts with external policies are resolved.
+
+### Classify the data
+
+Place proposed data into three governance categories.
+
+#### Category 1: Tribally controlled and highly restricted
+
+Data requiring direct tribal control, culturally authorised access, or exclusion from external systems.
+
+#### Category 2: Shared only under a specific agreement
+
+Data that may be accessed by approved partners for defined purposes, periods, and users.
+
+#### Category 3: Approved for wider release
+
+Data that the Nation determines can be publicly shared or reused because doing so creates collective benefit and acceptable risk.
+
+Consider:
+
+- tribal enrolment records;
+- individual health records;
+- aggregate health indicators;
+- education records;
+- housing data;
+- environmental measurements;
+- sacred-site locations;
+- oral histories;
+- language recordings;
+- traditional ecological knowledge;
+- community survey results; and
+- published research findings.
+
+### Establish partnership conditions
+
+Select **five mandatory conditions** that must be included before the Nation signs an agreement.
+
+Possible conditions include:
+
+- formal recognition of Indigenous data sovereignty;
+- tribal ownership or control of all Indigenous data;
+- a tribal right to approve or refuse each secondary use;
+- tribal review before publication;
+- purpose-specific and time-limited access;
+- a prohibition on commercial use without tribal approval;
+- cultural-protocol requirements;
+- tribal definitions and indicators;
+- data localisation or a tribally controlled copy;
+- audit logs;
+- correction and withdrawal procedures;
+- sanctions for misuse;
+- funded tribal staff positions;
+- training and knowledge transfer;
+- ownership of software developed for the project;
+- long-term maintenance funding;
+- a transition and exit plan; and
+- regular community reporting.
+
+The group must prioritise only five.
+
+### Define collective benefit and success
+
+Identify how the Nation will determine whether the platform is worthwhile.
+
+Possible measures include:
+
+- better decisions by the Tribal Council;
+- improved programme funding;
+- increased access to externally held data;
+- improved accuracy and relevance;
+- reduced reliance on external analysts;
+- number of tribal citizens trained or employed;
+- stronger language, culture, health, or environmental programmes;
+- community trust;
+- compliance with cultural protocols;
+- research outputs approved and used by the Nation;
+- correction of deficit-based or inaccurate narratives; and
+- continued tribal control after external funding ends.
+
+Select three to five measures.
+
+## Required group output
+
+Prepare a five-minute report-back containing:
+
+1. Your chosen partnership approach
+2. Your proposed governance structure
+3. Five mandatory agreement conditions
+4. One example of data in each governance category
+5. Three measures of collective benefit
+6. Your most important unresolved risk
+
+Each participant should briefly state:
+
+- what they supported;
+- what compromise they made; and
+- whether they would approve the final agreement.
+
+## Prioritised discussion questions
+
+**1. Who should have final authority over data about Red Willow citizens, lands, resources, and cultures?**
+
+Distinguish sovereign authority, ownership, custody, stewardship, technical control, and research responsibility.
+
+**2. What five conditions are essential for an external data partnership to support rather than weaken Indigenous data sovereignty?**
+
+Prioritise the conditions that most directly affect authority, collective benefit, responsibility, ethics, capacity, and long-term control.
+
+**3. How should the Nation decide which data can be shared widely, shared under controlled access, or retained under exclusive tribal control?**
+
+Consider sensitivity, cultural protocols, collective and individual rights, potential benefit, future misuse, and the limits of de-identification.
+
+**4.  How can the Nation gain technical expertise, funding, and access to externally held data without creating a new form of data dependency?**
+
+Consider workforce development, infrastructure ownership, knowledge transfer, software rights, sustainable financing, and exit arrangements.
+
+**5. How should tribal definitions, values, and ways of knowing influence data quality, indicators, analysis, and publication?**
+
+Consider who defines valid evidence, how deficit-based narratives can be challenged, and how community strengths and priorities should be represented.
