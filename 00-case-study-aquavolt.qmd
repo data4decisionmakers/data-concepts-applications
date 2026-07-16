@@ -1,0 +1,160 @@
+---
+output-file: case_study_aquavolt.html
+---
+
+# Modernising Utility Operations at AquaVolt Wakanda
+
+## Case Overview
+
+AquaVolt Wakanda is the oldest and largest private provider of water and electricity utilities in Wakanda. For decades, the company has played a central role in supporting households, tourism, commerce, and public infrastructure across the islands. Its scale and longevity have made it an essential part of national life, but its operating model has remained heavily dependent on legacy processes.
+
+Recently, the company appointed Chantal, its youngest-ever Director of Innovations, to help lead a modernization agenda. Her mandate is to improve how the company delivers utility services to customers within a 12-month period. She has been asked to focus on practical, visible, and measurable improvements rather than broad transformation rhetoric. The challenge is to modernize a long-established utility without disrupting service continuity, alienating experienced employees, or overextending the company’s investment capacity.
+
+This case places participants in the role of Chantal and her planning team. Their task is to develop a one-year modernization plan that balances operational realism, customer expectations, organizational change, and financial discipline.
+
+## Organizational Background
+
+AquaVolt Wakanda is a privately owned utility company serving a geographically dispersed market with a mix of urban, suburban, commercial, and tourism-driven demand. The company has an extensive network of water distribution lines, electrical infrastructure, customer service operations, and field maintenance teams. Its assets are critical to economic stability and service continuity.
+
+The company’s reputation has historically been built on reliability, reach, and technical competence. Senior managers and engineers have long relied on experience-based judgement and established operating rules to manage infrastructure and customer service decisions. This has ensured continuity, but it has also created a strong dependence on legacy systems and informal practices.
+
+Although AquaVolt remains operationally important and commercially viable, the company now faces increasing pressure to modernize. Customers expect faster, more accurate, and more transparent service. Internal leadership increasingly recognizes that manual processes are constraining efficiency and limiting the company’s ability to respond to demand growth and service complexity.
+
+## The Appointment of Chantal
+
+Chantal’s appointment as Director of Innovations is significant for both symbolic and practical reasons. She is younger than most of the company’s senior managers and is seen as someone who can bring new thinking to an organization shaped by tradition. Her credibility comes from her ability to work across functions, challenge outdated assumptions constructively, and translate ideas into implementable action.
+
+Her role is not purely technological. Instead, she is expected to lead cross-functional modernization efforts across operations, customer service, finance, engineering, and IT. She must identify where the company’s current systems create inefficiency, determine which changes will deliver the greatest impact, and build support for change across a workforce with deeply embedded habits.
+
+Chantal reports to executive leadership, but she does not have unilateral authority over major capital decisions or operational redesign. She must therefore influence rather than dictate, making stakeholder alignment a critical part of her success.
+
+## Current Operating Challenges
+
+### Manual Meter Reading
+
+AquaVolt continues to rely on manual collection of water and electricity meter readings. Field staff travel to customer premises, record usage data manually, and transmit readings for billing processing. In some cases, readings are captured on paper forms, while in others they may be entered into basic handheld tools before being transferred into the billing environment.
+
+This process creates several operational problems:
+
+* readings may be missed, delayed, or recorded inaccurately;
+* manual data entry increases the risk of billing errors;
+* disputed bills require time-consuming corrections;
+* consumption anomalies are difficult to identify early;
+* and field staff spend substantial time on repetitive administrative tasks.
+
+The manual process also limits management visibility. Leadership receives information only after readings are collected and entered, which means the company often learns about problems too late to intervene quickly.
+
+### Archaic Resource Positioning Rules
+
+The company also uses outdated rules to determine where to position resources for the installation of new water and electrical lines. These rules were designed in an earlier era and are based largely on historical precedent, static assumptions, and conventional engineering habits.
+
+As a result:
+
+* line installation planning can be inefficient;
+* resource allocation may not reflect current demand patterns;
+* equipment and crews may be deployed suboptimally;
+* and some communities may experience avoidable delays in service expansion.
+
+This legacy approach may have been acceptable when infrastructure demand was more predictable, but it is increasingly inadequate in a changing environment. Growth in particular districts, shifting customer densities, and the operational realities of island geography all require more adaptive planning methods.
+
+## Strategic Problem Statement
+
+AquaVolt Wakanda must modernize its service delivery model while preserving the reliability and trust that have defined the company for decades. The core strategic problem is not simply whether to adopt new technology, but how to redesign core utility operations in a way that improves billing accuracy, infrastructure planning, customer experience, and internal efficiency within a single year.
+
+Chantal’s challenge is to identify a transformation pathway that is credible, affordable, operationally safe, and politically acceptable within the company.
+
+## Business Pressures
+
+The company is facing a convergence of internal and external pressures.
+
+From the customer perspective, there is growing frustration with estimated bills, service delays, and the lack of transparent communication. Customers increasingly compare utility experiences to digital-first services in banking, telecommunications, and retail, where accuracy and responsiveness are expected as standard.
+
+From an operational perspective, manual meter reading and outdated planning rules reduce productivity and complicate decision-making. Errors must be corrected, disputes resolved, and field teams rechecked, all of which increase cost and strain staff capacity.
+
+From a leadership perspective, the company must improve performance without destabilizing core operations. Executives recognize the need for modernization, but they are cautious about large-scale disruption, particularly in a utility context where service continuity is non-negotiable.
+
+From a financial perspective, AquaVolt must justify any investment through tangible gains such as reduced rework, lower operating costs, better billing accuracy, improved revenue assurance, or more efficient use of field resources.
+
+## Constraints on the Transformation
+
+Chantal’s 12-month modernization agenda is shaped by several important constraints.
+
+First, the company cannot replace all legacy systems at once. Existing billing and operational systems may not integrate easily with modern tools, making a full-scale overhaul too risky.
+
+Second, the utility environment requires continuous service delivery. Any modernization effort must be phased carefully so that it does not interrupt meter reading, billing cycles, maintenance operations, or customer support.
+
+Third, the organization has a strong legacy culture. Experienced staff may view new digital processes as unnecessary, intrusive, or unrealistic. Without strong change management, even a technically sound plan may fail in practice.
+
+Fourth, the company operates in a geographically complex environment. Field access, transportation, scheduling, and service routing are all influenced by island logistics and local terrain.
+
+Finally, the company’s modernization budget is limited. Chantal must therefore prioritize initiatives that can demonstrate early value and create a foundation for later expansion.
+
+## Stakeholder Landscape
+
+A successful transformation will require cooperation from multiple stakeholder groups.
+
+**Executive leadership** wants improved performance, visible progress, and a credible strategic narrative.
+
+**Operations managers** want practical solutions that improve field efficiency and service reliability.
+
+**Finance leaders** want measurable returns and disciplined capital allocation.
+
+**Customer service teams** want fewer complaints, fewer corrections, and better visibility into account issues.
+
+**Field technicians and meter readers** need tools and processes that make their work simpler rather than more burdensome.
+
+**IT staff** must support integration, data quality, and system stability.
+
+**Regulators and public authorities** expect fair service standards, accurate billing, and dependable utility performance.
+
+**Customers** want timely service, transparent bills, and faster resolution of issues.
+
+## Chantal’s Vision
+
+Chantal’s vision is to modernize AquaVolt Wakanda in a way that makes the company more responsive, more efficient, and more customer-centred. She is not seeking transformation for its own sake. Instead, she wants the company to become easier to run and easier to trust.
+
+She believes the organization can achieve meaningful progress in three areas over 12 months:
+
+1. **Digitize and improve meter reading processes** so that billing becomes more accurate, timely, and transparent.
+2. **Redesign field planning and resource allocation** using more data-informed criteria rather than outdated rules.
+3. **Improve operational visibility** by providing management with better reporting, monitoring, and decision-support tools.
+
+Her objective is to create a modernization model that can be scaled later, but that first proves itself through practical results.
+
+## Expectations for the One-Year Plan
+
+The planning team should assume that Chantal has executive support, but not unlimited resources. The one-year plan should therefore focus on a sequence of initiatives that can be implemented progressively and measured clearly.
+
+A strong plan is likely to include:
+
+* a diagnostic of current-state processes and pain points;
+* a pilot for digital meter reading or improved meter capture;
+* a revised field-planning framework based on demand, location, and infrastructure data;
+* a dashboard or reporting layer for operational leadership;
+* training and communication plans for affected teams;
+* customer communication measures to support the transition;
+* and a governance model to track execution, risks, and outcomes.
+
+The plan should also define what success looks like at each stage, including early wins in billing accuracy, field productivity, complaint reduction, and service reliability.
+
+## Discussion Questions
+
+1. What should Chantal prioritize in the first 90 days?
+2. Which modernization initiative is likely to create the fastest visible value?
+3. How can the company reduce resistance from field teams and supervisors?
+4. What data and systems are required to replace archaic resource-positioning rules?
+5. How can AquaVolt improve service quality without disrupting billing continuity?
+6. What metrics should be used to assess success at the end of 12 months?
+7. How should Chantal balance short-term operational improvements with longer-term transformation goals?
+
+## Teaching Note
+
+This case is designed to test participants’ ability to develop an actionable transformation roadmap in a legacy utility setting. It emphasizes operational realism, stakeholder management, phased implementation, and the tension between innovation and continuity.
+
+Participants should avoid proposing a purely technology-led solution. Instead, they should treat the problem as a combined process, people, data, and governance challenge. The strongest responses will align modernization with customer value, internal efficiency, and organizational readiness.
+
+## Conclusion
+
+AquaVolt Wakanda is at an important inflection point. Its legacy operating model has supported decades of service delivery, but the company now faces growing pressure to modernize. Chantal’s appointment reflects the organization’s recognition that the future will require different tools, different rules, and different ways of working.
+
+The central question is whether AquaVolt can modernize quickly enough to matter, carefully enough to avoid disruption, and credibly enough to build trust with customers and employees alike. The planning team’s task is to turn that strategic question into a practical one-year roadmap.

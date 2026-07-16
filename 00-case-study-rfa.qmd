@@ -1,0 +1,232 @@
+---
+output-file: case_study_rfa.html
+---
+
+# Building a Disaster Data Sharing Partnership at Resilient Futures Alliance
+
+## Case Overview
+
+Alain leads **Resilient Futures Alliance (RFA)**, a non-governmental organisation that supports families affected by natural disasters. The organisation works across flood, cyclone, landslide, and storm-response settings, providing rapid humanitarian assistance, family tracing support, emergency referrals, temporary shelter coordination, and recovery follow-up. Over time, RFA has become known for its disciplined field operations and its ability to reach affected households quickly after an event.
+
+A defining feature of RFA’s response model is the quality of its data. In every disaster it responds to, field workers use a phone-based data collection app to capture detailed information about each individual and family supported. The app is deployed on mobile devices carried by response staff and allows the organisation to record household composition, location, emergency needs, food and shelter assistance delivered, vulnerability markers, referral status, and follow-up notes. This has created a highly structured and reliable record of RFA’s work across multiple disaster events.
+
+Alain now believes the organisation has reached an important turning point. While the data is already valuable for internal accountability and operational planning, he sees much greater potential if it can be shared with relevant government departments. His vision is for RFA’s disaster response data to support broader analytics across the public sector, helping authorities better understand who is affected, where needs cluster, which interventions are most effective, and how future disaster responses can be improved.
+
+The case places participants in the role of Alain and his leadership team. Their task is to develop a plan that enables secure, responsible, and practical data sharing and collaboration with government agencies while preserving trust, protecting vulnerable people, and maintaining the speed and flexibility required in disaster response.
+
+## Suggested Organisation Name
+
+The organisation is called **Resilient Futures Alliance (RFA)**.
+
+The name reflects:
+- **Resilient**: the ability of communities and systems to recover after shocks;
+- **Futures**: a focus on preparedness, recovery, and long-term learning;
+- **Alliance**: the partnership-oriented nature of the NGO’s work with communities, donors, and public-sector agencies.
+
+## Organisational Background
+
+Resilient Futures Alliance is a disaster-response NGO that works alongside communities, local authorities, and humanitarian partners during and after emergencies. Its mandate is centred on supporting families who have been displaced, injured, economically affected, or otherwise made vulnerable by natural disasters.
+
+RFA’s operations are built around rapid deployment, structured field assessment, and coordinated case management. The organisation has invested in a digital-first approach to field data collection, using a mobile app that allows workers to enter information directly at the point of contact. This has reduced transcription error, improved consistency, and allowed the organisation to track support activities across multiple locations and response phases.
+
+Over several years, this approach has generated a rich archive of operational and household-level data. The organisation now has the ability to review patterns across disasters, understand the scale of assistance delivered, and examine recurring needs among affected populations. However, most of this insight remains within the NGO itself.
+
+Alain believes RFA’s data could have much greater public value if it were made available in a controlled and responsible way to the government departments responsible for disaster management, social protection, housing, public health, and recovery planning.
+
+## Alain’s Role
+
+Alain is the founder and executive director of RFA. He has spent many years working in humanitarian response and has developed a strong reputation for operational discipline, community trust, and pragmatic leadership. He is comfortable with field realities and understands that the true measure of disaster response is not only how much aid is distributed, but how quickly people’s lives stabilize afterwards.
+
+His current focus is not simply on collecting data, but on converting operational data into a shared public good. He sees several possible benefits:
+- better coordination with government during active response;
+- stronger evidence for planning future disaster interventions;
+- improved identification of vulnerable households;
+- reduced duplication across service providers;
+- and more informed policy discussions about preparedness and recovery.
+
+Alain is aware, however, that data sharing with government is not straightforward. It requires legal clarity, technical interoperability, trust, and governance arrangements that respect the rights of affected families.
+
+## Current Data Collection Practice
+
+RFA’s field workers use a mobile phone-based app to collect data in the field during disaster response and recovery operations. The app is designed for use in fast-moving environments where connectivity may be unreliable and time with each household may be limited.
+
+The dataset typically includes:
+- household identifier information;
+- names and demographic details of individuals supported;
+- disaster type and location;
+- immediate needs assessed at the time of contact;
+- assistance provided by RFA;
+- referral outcomes;
+- case status and follow-up notes;
+- and time-stamped fieldworker records.
+
+Because the app is used consistently across response teams, the data is comparatively structured and complete. This gives RFA a strong evidence base for internal monitoring and accountability. It also means the organisation is better positioned than many NGOs to participate in multi-agency analytics or coordinated response planning.
+
+The challenge is that the data was originally designed for service delivery and case tracking, not necessarily for cross-government integration. Alain therefore needs a strategy that preserves the integrity of the original collection process while making the data usable for broader institutional analysis.
+
+## Strategic Opportunity
+
+Alain’s long-term vision is to create a formal mechanism through which RFA’s disaster response data can be shared with the relevant government departments in a way that supports analytics, planning, and decision-making. He believes this could help government agencies answer questions such as:
+- Which geographic areas are most consistently affected by particular disaster types?
+- Which household groups are most vulnerable before and after an event?
+- What kinds of assistance are delivered most often, and where are gaps emerging?
+- How quickly are affected families receiving support across different agencies?
+- What patterns in response data can inform preparedness and resource allocation?
+
+He sees this as an opportunity to shift from fragmented response activity to a more coordinated, data-informed ecosystem for disaster management and recovery.
+
+## Strategic Problem Statement
+
+The central problem is how to design a secure, ethical, and practical model for sharing disaster response data between a non-governmental organisation and government departments so that the data can be used for analytics and future planning without compromising confidentiality, consent, trust, or operational effectiveness.
+
+Alain’s challenge is to determine what should be shared, with whom, under what conditions, in what format, and for what purposes.
+
+## Why This Matters
+
+RFA’s data is potentially valuable far beyond the organisation itself. Disaster events often create overlapping needs across humanitarian, health, infrastructure, housing, and social protection systems. If data remains siloed within individual actors, the broader system may miss important patterns or duplicate effort.
+
+By enabling collaboration with government, RFA could help:
+- improve the targeting of aid;
+- support faster and more coordinated recovery;
+- identify high-risk households and communities earlier;
+- strengthen disaster preparedness using historical evidence;
+- and create a more complete view of the needs of disaster-affected populations.
+
+The potential value is not only operational. It is also strategic and institutional. A successful data-sharing model could position RFA as a trusted partner in a wider public-data ecosystem.
+
+## Key Challenges
+
+### Data Governance and Confidentiality
+
+RFA’s records contain sensitive personal and household-level information. Disaster-affected families may have experienced loss, displacement, injury, or trauma. Any sharing arrangement must protect privacy, define data access carefully, and ensure that information is used only for legitimate purposes.
+
+### Consent and Trust
+
+Affected families may be willing to share information with RFA because they trust its field workers, but that trust may not automatically extend to government agencies. Alain must consider how consent is obtained, how it is communicated, and whether data sharing is consistent with the expectations set at the point of collection.
+
+### Data Standardisation and Interoperability
+
+Government departments may use different formats, classification systems, or geographic coding conventions. RFA’s app data may need to be cleaned, mapped, or transformed before it can be integrated into analytics systems used by public agencies.
+
+### Institutional Alignment
+
+Different government departments may have different priorities and data maturity levels. Disaster management teams may want real-time information, while social protection teams may be focused on eligibility and follow-up. Health or housing agencies may need different subsets of data. Alain will need a flexible model that can serve multiple stakeholders without creating confusion.
+
+### Operational Continuity
+
+RFA’s primary purpose is field response. Any data-sharing arrangement must not slow down frontline work or create extra burden for field workers during an emergency.
+
+### Security and Risk
+
+The organisation must be confident that shared data will be protected against misuse, unauthorized access, or re-identification. It also needs a plan for auditability and accountability in case of data incidents.
+
+## Stakeholder Landscape
+
+A successful collaboration will require cooperation from multiple stakeholder groups.
+
+**Alain and the RFA leadership team** want data to be useful beyond internal reporting and to support a broader public good.
+
+**Field workers** need a system that remains fast and practical in high-pressure disaster environments.
+
+**Affected families** need assurance that their personal information is handled respectfully and securely.
+
+**Government disaster management departments** want timely, reliable data that improves coordination and planning.
+
+**Social protection, health, housing, and recovery agencies** may use the data for targeted interventions and post-disaster support.
+
+**Technical teams and data governance officials** will likely need to design secure exchange mechanisms, access controls, and integration standards.
+
+**Donors and partner organisations** may support the effort if it strengthens transparency, accountability, and impact.
+
+## Alain’s Vision
+
+Alain wants RFA to become more than a response organisation. He wants it to contribute to a data-informed disaster ecosystem in which NGOs and government can work from a shared evidence base.
+
+His vision includes:
+1. **Structured and shareable disaster response data** that can be safely used by government departments.
+2. **A formal data-sharing arrangement** that clarifies roles, permissions, and responsibilities.
+3. **Improved analytics for future disaster preparedness and recovery** based on combined datasets.
+4. **Stronger collaboration between humanitarian and public-sector actors** during and after disaster events.
+5. **A model that preserves trust and operational speed** while increasing the public value of the data collected.
+
+Alain is not seeking to relinquish control of the organisation’s data for its own sake. He wants to ensure the data contributes to better outcomes for communities affected by disasters.
+
+## Opportunities for Expansion
+
+Alain sees three major opportunities.
+
+### 1. Establish a government-facing data-sharing framework
+
+RFA could develop a policy and technical framework that defines which data elements can be shared, in what form, and under what conditions. This could create a repeatable process across future disasters.
+
+### 2. Build a shared analytics capability
+
+By working with government departments, RFA’s data could contribute to dashboards, reports, and analytical tools that show trends across disasters, regions, and intervention types.
+
+### 3. Strengthen preparedness and recovery planning
+
+Historical response data could help identify recurring vulnerabilities, common service gaps, and high-risk locations. That would make future disaster planning more proactive and better targeted.
+
+## Operating Constraints
+
+Any strategy must account for the realities of disaster response and public-sector collaboration.
+
+The first constraint is **time pressure**. Disaster response moves quickly, and field teams cannot be slowed by overly complex data processes.
+
+The second constraint is **data sensitivity**. Household and individual records may reveal distressing or identifying information.
+
+The third constraint is **variable government capability**. Some departments may have strong analytical systems, while others may need support to use shared data effectively.
+
+The fourth constraint is **trust**. RFA’s credibility depends on being seen as a reliable advocate for affected families, not simply a data broker.
+
+The fifth constraint is **resource availability**. Building secure, interoperable, and governed data-sharing arrangements requires technical, legal, and operational effort.
+
+## Strategic Research and Collaboration Questions
+
+Although this is not a research study in the academic sense, Alain’s challenge is similar to a research strategy problem: how to turn a strong operational dataset into an evidence platform that can support decision-making across institutions.
+
+Important questions include:
+- What categories of data should be shared with government?
+- Which departments are the most appropriate initial partners?
+- How can consent and confidentiality be managed?
+- What minimum technical standards are needed for interoperability?
+- Should the organisation share anonymized, de-identified, or case-level data?
+- What governance structure should oversee use of the data?
+- How will success be measured?
+
+## Expectations for the Planning Exercise
+
+Participants should assume that Alain has a strong operational data asset but needs a realistic plan for sharing it with government. The task is not simply to export data. It is to create a responsible collaboration model that balances public value, privacy, trust, and feasibility.
+
+A strong plan is likely to address:
+- a review of the data currently collected in the field;
+- an assessment of which data elements could be shared safely;
+- legal, ethical, and policy considerations;
+- a proposed data-sharing agreement or governance framework;
+- technical options for secure transfer and access;
+- a stakeholder engagement plan with government departments;
+- and a phased implementation roadmap with milestones.
+
+The plan should also identify what success would look like, such as agreement on a pilot data-sharing arrangement, completion of a secure transfer prototype, or the use of NGO data in a government disaster analytics product.
+
+## Discussion Questions
+
+1. What should Alain prioritize in the first 90 days?
+2. Which government departments should be the first data-sharing partners?
+3. What data should be shared directly, and what should be aggregated or anonymized?
+4. How can RFA preserve trust with affected families while sharing data more broadly?
+5. What governance model would best support ongoing collaboration?
+6. What technical and operational barriers are likely to emerge?
+7. What would a successful 12-month outcome look like?
+
+## Teaching Note
+
+This case is designed to test participants’ ability to design a cross-sector data collaboration strategy in a humanitarian and disaster-response context. It emphasizes ethical data use, governance, trust, interoperability, and the tension between urgency and control.
+
+Participants should avoid treating the challenge as a simple IT integration exercise. The best responses will treat it as a partnership, policy, and operating-model challenge involving people, process, data, and institutional trust.
+
+## Conclusion
+
+Resilient Futures Alliance has already built a valuable data asset through its field response work. Alain now sees an opportunity to extend that value beyond the organisation by enabling government collaboration and analytics that can strengthen disaster preparedness and recovery.
+
+The challenge is to create a data-sharing model that is secure, practical, and trusted by all parties. The goal is not just to move information between institutions, but to improve the way communities are supported before, during, and after disasters. The task for the planning team is to turn that ambition into a workable and responsible collaboration plan.
