@@ -43,6 +43,10 @@ book:
         - 00-case-study-nrsp.qmd
         - 00-case-study-un.qmd
         - 00-case-study-nagpra.qmd
+        - 00-case-study-aquavolt.qmd
+        - 00-case-study-ahel.qmd
+        - 00-case-study-poverty-unit.qmd
+        - 00-case-study-rfa.qmd
     - part: Data Management
       chapters:
         - 08-data-security.qmd

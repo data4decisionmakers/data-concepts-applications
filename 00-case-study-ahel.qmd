@@ -1,0 +1,221 @@
+---
+output-file: case_study_poverty_ahel.html
+---
+
+# Linking Air Quality and Health Outcomes at Northbridge University
+
+## Case Overview
+
+Jean Paul is a mid-career researcher and academic at Caledonia University, a prestigious institution with a strong reputation for interdisciplinary research across public health, environmental science, data analytics, and policy studies. He works within the university’s **Department of Health and Environment**, where several research units examine the relationships between environmental exposures, population health, urban systems, and social wellbeing.
+
+Over the past five years, Jean Paul and a small team of researchers have built a valuable environmental evidence base using air quality logs collected from a network of sensors deployed throughout the surrounding metropolitan area. Their research has been strengthened by additional area-based datasets on vehicular traffic, land use, and the locations of factories and other industrial plants. This work has enabled the team to identify patterns in air pollution levels, seasonal variation, hotspot locations, and likely determinants of poor air quality.
+
+Jean Paul now wants to take the research further. He believes the next major question is not only where poor air quality occurs and what drives it, but also **what it is doing to people’s health**. To answer that question, he wants to link the existing air quality dataset with health and health outcome data held by his departmental colleagues. His ambition is to move from descriptive environmental analysis toward integrated, evidence-based research that can support public health understanding, policy engagement, and future intervention design.
+
+The case places participants in the role of Jean Paul and his wider research team. Their task is to develop a research strategy that will allow the group to expand from air quality analysis into cross-disciplinary work on air quality and health outcomes while dealing with the practical, ethical, and methodological challenges involved in combining environmental and health data.
+
+## Suggested Research Group Name
+
+Jean Paul’s research group is called the **AeroHealth Evidence Lab (AHEL)**.
+
+The name reflects the group’s focus on:
+- **Aero**: air quality, pollution, and environmental exposure;
+- **Health**: health impacts and outcomes;
+- **Evidence**: rigorous, data-driven analysis;
+- **Lab**: collaborative, interdisciplinary research design.
+
+## Organizational Background
+
+Caledonia University is a large, research-intensive institution with multiple departments and affiliated research centres. Within the Department of Health and Environment, the culture is highly collaborative but methodologically diverse. Some teams focus on epidemiology and population health, others on environmental monitoring, geospatial analysis, urban systems, or policy evaluation.
+
+The department has a history of producing respected research, securing external grants, and contributing to public debate. However, like many universities, it also operates within separate data, ethics, and disciplinary silos. Research units often manage their own datasets, technical approaches, and publication priorities. As a result, promising opportunities for integration can be slowed by different data standards, different analytical methods, and different expectations around ownership and collaboration.
+
+Jean Paul’s team has already demonstrated that it can generate valuable environmental intelligence. The next stage of the work requires close partnership with colleagues who hold or manage health-related data. That shift introduces both opportunity and complexity.
+
+## Jean Paul’s Role
+
+Jean Paul is an experienced academic who has built his career around the intersection of environmental science and data-driven policy relevance. He is respected for his technical competence, his ability to work across disciplines, and his skill in turning raw data into policy-relevant insight.
+
+He leads a small team of researchers who have spent the past five years building and refining the air quality project. The team includes staff with skills in sensor data management, statistical analysis, geospatial mapping, and field coordination. Their work has established a strong foundation, but Jean Paul believes the project’s real value will be unlocked only when it is linked to health evidence.
+
+His vision is to evolve the current work into a broader research program that can:
+- connect environmental exposure to health outcomes,
+- identify populations most at risk,
+- produce stronger evidence for policy and prevention,
+- and position the university as a leader in translational environmental health research.
+
+Jean Paul is aware that this shift will not happen through technical analysis alone. It will require collaboration, data governance, ethics approval, stakeholder alignment, and a carefully designed research roadmap.
+
+## Current Research Foundation
+
+### Air Quality Monitoring Network
+
+Jean Paul’s team has spent five years collecting air quality logs through a distributed network of sensors placed at strategic locations throughout the study area. The network captures temporal and spatial variation in pollution levels across neighbourhoods, road corridors, industrial zones, and mixed-use areas.
+
+The sensor network has allowed the team to build a substantial environmental dataset with information such as:
+- pollutant concentration trends over time;
+- hourly, daily, and seasonal changes in air quality;
+- geographic hotspots and low-exposure zones;
+- and correlations between pollution levels and nearby activity patterns.
+
+This data has become a core research asset. It provides a detailed picture of environmental exposure and allows the team to move beyond anecdotal observations.
+
+### Area-Based Determinants of Air Quality
+
+In addition to sensor logs, the team has collected contextual data on:
+- vehicular traffic intensity,
+- road density and traffic corridors,
+- factory and industrial plant locations,
+- land-use patterns,
+- and area characteristics that may influence pollution levels.
+
+This has enabled the team to identify likely determinants of poor air quality and to describe the structural and spatial factors associated with pollution variation. The research has been useful, but largely environmental in scope. It explains where pollution may be concentrated and why, but not yet what those exposure patterns mean for health.
+
+## Strategic Research Opportunity
+
+Jean Paul believes the next phase of research should examine the relationship between poor air quality and poor health outcomes. He sees an opportunity to create an integrated dataset that combines environmental exposure measures with health data held by colleagues in the department or affiliated research groups.
+
+This would allow the research unit to explore questions such as:
+- Are areas with persistently poor air quality also associated with worse health outcomes?
+- Which population groups are most affected?
+- Are there seasonal or lagged relationships between pollution episodes and health events?
+- Do exposure patterns differ by neighbourhood, age group, or socioeconomic context?
+- Can the research identify thresholds or clusters of risk that are useful for policy or intervention design?
+
+Jean Paul’s ambition is to move the research team from environmental observation to **health-relevant evidence generation**. He wants the group to produce work that is scientifically rigorous, policy-relevant, and capable of supporting public health action.
+
+## Strategic Problem Statement
+
+The challenge is to develop a research strategy that enables the AeroHealth Evidence Lab to combine air quality and health datasets in a way that is methodologically sound, ethically approved, and operationally feasible. The key strategic question is how to design a research program that uses existing environmental evidence as a foundation for cross-disciplinary health analysis without compromising data quality, privacy, or scientific integrity.
+
+## Why This Is an Important Next Step
+
+The current research has already answered useful questions about pollution patterns and environmental determinants. However, the policy value of air quality research increases significantly when it can be linked to outcomes that matter directly to people’s lives.
+
+By connecting exposure data with health outcomes, Jean Paul’s team could:
+- strengthen the case for environmental intervention;
+- identify vulnerable populations or locations;
+- contribute to hospital, public health, or municipal planning;
+- produce more publishable and impactful interdisciplinary research;
+- and help translate academic findings into real-world action.
+
+In short, the team would shift from describing a problem to demonstrating its consequences.
+
+## Research and Operational Challenges
+
+### Data Integration
+
+The first major challenge is combining datasets that were originally collected for different purposes. Air quality logs, traffic data, industrial location data, and health records may differ in structure, scale, time period, geographic resolution, and quality. The research team will need to determine whether the datasets can be aligned meaningfully and what common identifiers or geospatial frameworks can support linkage.
+
+### Data Governance and Access
+
+Health data is likely to be sensitive and subject to strict access requirements. Even within a university, the team will need to establish who can access which data, under what permissions, and for what purpose. Ethical approval, confidentiality protections, and institutional data-sharing agreements will be essential.
+
+### Methodological Fit
+
+Environmental exposure data and health outcome data often require careful methodological design. The team will need to decide whether the research will be ecological, geospatial, longitudinal, case-control, or some hybrid model. It will also need to address confounders, bias, temporal lag effects, and the challenge of inferring association versus causation.
+
+### Interdisciplinary Collaboration
+
+The research is inherently cross-disciplinary. It will require collaboration between environmental scientists, epidemiologists, public health researchers, statisticians, geospatial analysts, and possibly data governance experts. Each discipline may have its own language, priorities, and standards of evidence.
+
+### Resource and Time Constraints
+
+Jean Paul’s team is small. That means the project must be realistic in scope and sequenced carefully. A strong research plan will need to identify what can be done immediately, what requires formal approval or partnership, and what may be better suited to a longer-term program.
+
+## Opportunities for Expansion
+
+Jean Paul sees three major opportunities for the research unit.
+
+### 1. Build an integrated exposure-health research platform
+
+The team could establish a structured research environment that brings together air quality data, geospatial exposure variables, and health outcome datasets in a repeatable analytical framework. This would support not only one study, but a pipeline of future studies.
+
+### 2. Generate evidence for targeted public health action
+
+By identifying where and when poor air quality overlaps with poor health outcomes, the research could inform targeted interventions, local public health responses, or community awareness initiatives.
+
+### 3. Position the unit as an interdisciplinary leader
+
+A successful program would strengthen the profile of the AeroHealth Evidence Lab and the department more broadly. It could support grant applications, publications, conference presentations, and partnerships with external agencies.
+
+## Operating Constraints
+
+Any research plan must account for the realities of the university environment.
+
+The first constraint is **ethical and legal compliance**. Health data must be handled with care, and any linkage must respect consent, confidentiality, and institutional requirements.
+
+The second constraint is **data compatibility**. Datasets may not use the same spatial boundaries, time intervals, or coding conventions.
+
+The third constraint is **team capacity**. Jean Paul’s team is small, so the project must not depend on overly ambitious manual data cleaning or complex custom infrastructure unless support is available.
+
+The fourth constraint is **disciplinary alignment**. Colleagues in the health unit may have different research priorities, timelines, or publication expectations.
+
+The fifth constraint is **research credibility**. Because the project may inform public interest or policy debates, the design must be robust enough to withstand scrutiny from peer reviewers, institutional review boards, and external stakeholders.
+
+## Stakeholder Landscape
+
+A successful research strategy will require cooperation from several stakeholder groups.
+
+**Jean Paul and the AeroHealth Evidence Lab** want to expand the research program and increase its relevance and impact.
+
+**Departmental colleagues in health research** hold valuable outcome data and methodological expertise.
+
+**University ethics and governance bodies** need assurance that the project handles sensitive data appropriately.
+
+**Data or IT support teams** may need to assist with storage, access control, and secure analysis environments.
+
+**External research partners or public agencies** may become important later if the work expands into policy engagement or applied health analysis.
+
+**Funding bodies** are likely to favour projects that demonstrate interdisciplinary value, methodological rigour, and social relevance.
+
+## Jean Paul’s Vision
+
+Jean Paul wants the AeroHealth Evidence Lab to evolve into a stronger interdisciplinary research unit that can connect environmental exposure to health outcomes in a meaningful way.
+
+His vision includes:
+1. **A robust linked dataset** combining air quality, environmental determinants, and health outcomes.
+2. **A clear research agenda** focused on identifying associations, patterns, and at-risk populations.
+3. **A collaborative model** that draws on the strengths of health and environment researchers across the department.
+4. **A stronger external profile** through publications, presentations, and research partnerships.
+5. **Evidence that can support policy and public health action** in the future.
+
+He is not looking for a one-off study. He wants to build a durable research capability.
+
+## Expectations for the Research Planning Exercise
+
+Participants should assume that Jean Paul has a solid environmental data foundation but now needs a realistic plan for expanding into health-linked research. The task is not simply to merge datasets. It is to design a credible research strategy that accounts for data access, ethics, methods, collaboration, and dissemination.
+
+A strong research plan is likely to address:
+- the specific research questions to be pursued;
+- which health datasets are relevant and how they will be accessed;
+- how environmental and health data will be linked;
+- the analytical approach and study design;
+- ethical and governance requirements;
+- collaboration roles across departments;
+- the timeline and sequencing of work;
+- and the outputs expected from the project.
+
+The plan should also define how success will be measured, such as whether the team can secure data access, complete a pilot linkage, produce a publishable analysis, or establish a scalable research platform.
+
+## Discussion Questions
+
+1. What should Jean Paul prioritize in the first 90 days?
+2. Which health outcomes would be the most appropriate starting point for linked analysis?
+3. What data governance and ethics issues are likely to arise?
+4. How can the team ensure the environmental and health datasets are compatible?
+5. What research design would best support the team’s objectives?
+6. How can Jean Paul build collaboration with departmental colleagues who hold health data?
+7. What would success look like after 12 months?
+
+## Teaching Note
+
+This case is designed to test participants’ ability to develop a cross-disciplinary research strategy in a university setting. It emphasizes collaboration, ethics, data linkage, and the shift from environmental description to health-oriented evidence generation.
+
+Participants should avoid treating the problem as purely technical. The strongest responses will address research design, institutional partnerships, governance, and the practical realities of academic work.
+
+## Conclusion
+
+Jean Paul and the AeroHealth Evidence Lab have already built an important foundation through five years of air quality research. The next step is to connect that evidence to health outcomes so that the work becomes more powerful, more relevant, and more impactful.
+
+The challenge is to create a research strategy that enables this transition while respecting the complexity of health data, the constraints of academic collaboration, and the standards required for credible interdisciplinary research. The task for the planning team is to turn that ambition into a practical and defensible research roadmap.
