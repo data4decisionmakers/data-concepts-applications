@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>15&nbsp; Linking Air Quality and Health Outcomes at Northbridge University – Data for Decision Makers: Data Concepts and Applications</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./case_study_poverty_unit.html" rel="next">
+<link href="./case_study_aquavolt.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2ed7f7ae727038b1aa95f4c24ad3a3a6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-7f5d26846b9122f8120fbad4e450825f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FD0RT8JB4E"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-FD0RT8JB4E', { 'anonymize_ip': true});
+</script>
+
+
+</head>
+
+<body class="floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./case_study_one.html">Data Case Studies</a></li><li class="breadcrumb-item"><a href="./case_study_poverty_ahel.html"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Linking Air Quality and Health Outcomes at Northbridge University</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Data for Decision Makers: Data Concepts and Applications</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/data4decisonmakers/data-concepts-applications/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Data-for-Decision-Makers--Data-Concepts-and-Applications.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Data-for-Decision-Makers--Data-Concepts-and-Applications.epub">
+              <i class="bi bi-journal pe-1"></i>
+            Download ePub
+            </a>
+          </li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-1" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-1">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
+              <i class="bi bi-linkedin pe-1"></i>
+            LinkedIn
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+              <i class="bi bi-facebook pe-1"></i>
+            Facebook
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Data Concepts</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./all-about-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">All about data</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Data Case Studies</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_one.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Data use and analytics in water quality management</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_two.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Enhancing Local Governance Through Data-Driven Decision-Making in Indonesia</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case-study-three.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">The Use of Data in Local Governance - A Michigan Perspective</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case-study-four.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Enhancing Data-Driven Decision-Making in Local Governance - A Focus on Turkana County</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case-study-five.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Indigenous Data Governance in the United States</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_india.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Helping communities to gain the ability to collect and analyze their own data</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_mozambique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_singapore.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Singapore’s Smart Nation Initiative and the Governance of a Data-Driven State</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_nrsp.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Governing the Northbridge Vulnerability Dashboard</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_un.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Building a Shared Technology and Data Future for the United Nations</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_nagpra.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Reclaiming Authority over Indigenous Data</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_aquavolt.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Modernising Utility Operations at AquaVolt Wakanda</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_poverty_ahel.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Linking Air Quality and Health Outcomes at Northbridge University</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_poverty_unit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Modernising Case Work in the Poverty Alleviation Unit</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./case_study_rfa.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Building a Disaster Data Sharing Partnership at Resilient Futures Alliance</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Data Management</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./data-security.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Data privacy, security, and protection</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./data-tools.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Data tools</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./all-about-spreadsheets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">All about spreadsheets</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./project-based-workflow.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Project-based workflow</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./data-entry-storage.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Data entry/collection and storage using spreadsheets</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Exploratory Data Analysis</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./exploratory-data-analysis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Exploratory data analysis</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./univariate-statistics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Univariate statistics</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bivariate-statistics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Bivariate statistics</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./epi-statistics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Epidemiological statistics</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#case-overview" id="toc-case-overview" class="nav-link active" data-scroll-target="#case-overview"><span class="header-section-number">15.1</span> Case Overview</a></li>
+  <li><a href="#suggested-research-group-name" id="toc-suggested-research-group-name" class="nav-link" data-scroll-target="#suggested-research-group-name"><span class="header-section-number">15.2</span> Suggested Research Group Name</a></li>
+  <li><a href="#organizational-background" id="toc-organizational-background" class="nav-link" data-scroll-target="#organizational-background"><span class="header-section-number">15.3</span> Organizational Background</a></li>
+  <li><a href="#jean-pauls-role" id="toc-jean-pauls-role" class="nav-link" data-scroll-target="#jean-pauls-role"><span class="header-section-number">15.4</span> Jean Paul’s Role</a></li>
+  <li><a href="#current-research-foundation" id="toc-current-research-foundation" class="nav-link" data-scroll-target="#current-research-foundation"><span class="header-section-number">15.5</span> Current Research Foundation</a>
+  <ul class="collapse">
+  <li><a href="#air-quality-monitoring-network" id="toc-air-quality-monitoring-network" class="nav-link" data-scroll-target="#air-quality-monitoring-network"><span class="header-section-number">15.5.1</span> Air Quality Monitoring Network</a></li>
+  <li><a href="#area-based-determinants-of-air-quality" id="toc-area-based-determinants-of-air-quality" class="nav-link" data-scroll-target="#area-based-determinants-of-air-quality"><span class="header-section-number">15.5.2</span> Area-Based Determinants of Air Quality</a></li>
+  </ul></li>
+  <li><a href="#strategic-research-opportunity" id="toc-strategic-research-opportunity" class="nav-link" data-scroll-target="#strategic-research-opportunity"><span class="header-section-number">15.6</span> Strategic Research Opportunity</a></li>
+  <li><a href="#strategic-problem-statement" id="toc-strategic-problem-statement" class="nav-link" data-scroll-target="#strategic-problem-statement"><span class="header-section-number">15.7</span> Strategic Problem Statement</a></li>
+  <li><a href="#why-this-is-an-important-next-step" id="toc-why-this-is-an-important-next-step" class="nav-link" data-scroll-target="#why-this-is-an-important-next-step"><span class="header-section-number">15.8</span> Why This Is an Important Next Step</a></li>
+  <li><a href="#research-and-operational-challenges" id="toc-research-and-operational-challenges" class="nav-link" data-scroll-target="#research-and-operational-challenges"><span class="header-section-number">15.9</span> Research and Operational Challenges</a>
+  <ul class="collapse">
+  <li><a href="#data-integration" id="toc-data-integration" class="nav-link" data-scroll-target="#data-integration"><span class="header-section-number">15.9.1</span> Data Integration</a></li>
+  <li><a href="#data-governance-and-access" id="toc-data-governance-and-access" class="nav-link" data-scroll-target="#data-governance-and-access"><span class="header-section-number">15.9.2</span> Data Governance and Access</a></li>
+  <li><a href="#methodological-fit" id="toc-methodological-fit" class="nav-link" data-scroll-target="#methodological-fit"><span class="header-section-number">15.9.3</span> Methodological Fit</a></li>
+  <li><a href="#interdisciplinary-collaboration" id="toc-interdisciplinary-collaboration" class="nav-link" data-scroll-target="#interdisciplinary-collaboration"><span class="header-section-number">15.9.4</span> Interdisciplinary Collaboration</a></li>
+  <li><a href="#resource-and-time-constraints" id="toc-resource-and-time-constraints" class="nav-link" data-scroll-target="#resource-and-time-constraints"><span class="header-section-number">15.9.5</span> Resource and Time Constraints</a></li>
+  </ul></li>
+  <li><a href="#opportunities-for-expansion" id="toc-opportunities-for-expansion" class="nav-link" data-scroll-target="#opportunities-for-expansion"><span class="header-section-number">15.10</span> Opportunities for Expansion</a>
+  <ul class="collapse">
+  <li><a href="#build-an-integrated-exposure-health-research-platform" id="toc-build-an-integrated-exposure-health-research-platform" class="nav-link" data-scroll-target="#build-an-integrated-exposure-health-research-platform"><span class="header-section-number">15.10.1</span> 1. Build an integrated exposure-health research platform</a></li>
+  <li><a href="#generate-evidence-for-targeted-public-health-action" id="toc-generate-evidence-for-targeted-public-health-action" class="nav-link" data-scroll-target="#generate-evidence-for-targeted-public-health-action"><span class="header-section-number">15.10.2</span> 2. Generate evidence for targeted public health action</a></li>
+  <li><a href="#position-the-unit-as-an-interdisciplinary-leader" id="toc-position-the-unit-as-an-interdisciplinary-leader" class="nav-link" data-scroll-target="#position-the-unit-as-an-interdisciplinary-leader"><span class="header-section-number">15.10.3</span> 3. Position the unit as an interdisciplinary leader</a></li>
+  </ul></li>
+  <li><a href="#operating-constraints" id="toc-operating-constraints" class="nav-link" data-scroll-target="#operating-constraints"><span class="header-section-number">15.11</span> Operating Constraints</a></li>
+  <li><a href="#stakeholder-landscape" id="toc-stakeholder-landscape" class="nav-link" data-scroll-target="#stakeholder-landscape"><span class="header-section-number">15.12</span> Stakeholder Landscape</a></li>
+  <li><a href="#jean-pauls-vision" id="toc-jean-pauls-vision" class="nav-link" data-scroll-target="#jean-pauls-vision"><span class="header-section-number">15.13</span> Jean Paul’s Vision</a></li>
+  <li><a href="#expectations-for-the-research-planning-exercise" id="toc-expectations-for-the-research-planning-exercise" class="nav-link" data-scroll-target="#expectations-for-the-research-planning-exercise"><span class="header-section-number">15.14</span> Expectations for the Research Planning Exercise</a></li>
+  <li><a href="#discussion-questions" id="toc-discussion-questions" class="nav-link" data-scroll-target="#discussion-questions"><span class="header-section-number">15.15</span> Discussion Questions</a></li>
+  <li><a href="#teaching-note" id="toc-teaching-note" class="nav-link" data-scroll-target="#teaching-note"><span class="header-section-number">15.16</span> Teaching Note</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">15.17</span> Conclusion</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/data4decisonmakers/data-concepts-applications/edit/main/00-case-study-ahel.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./case_study_one.html">Data Case Studies</a></li><li class="breadcrumb-item"><a href="./case_study_poverty_ahel.html"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Linking Air Quality and Health Outcomes at Northbridge University</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Linking Air Quality and Health Outcomes at Northbridge University</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="case-overview" class="level2" data-number="15.1">
+<h2 data-number="15.1" class="anchored" data-anchor-id="case-overview"><span class="header-section-number">15.1</span> Case Overview</h2>
+<p>Jean Paul is a mid-career researcher and academic at Caledonia University, a prestigious institution with a strong reputation for interdisciplinary research across public health, environmental science, data analytics, and policy studies. He works within the university’s <strong>Department of Health and Environment</strong>, where several research units examine the relationships between environmental exposures, population health, urban systems, and social wellbeing.</p>
+<p>Over the past five years, Jean Paul and a small team of researchers have built a valuable environmental evidence base using air quality logs collected from a network of sensors deployed throughout the surrounding metropolitan area. Their research has been strengthened by additional area-based datasets on vehicular traffic, land use, and the locations of factories and other industrial plants. This work has enabled the team to identify patterns in air pollution levels, seasonal variation, hotspot locations, and likely determinants of poor air quality.</p>
+<p>Jean Paul now wants to take the research further. He believes the next major question is not only where poor air quality occurs and what drives it, but also <strong>what it is doing to people’s health</strong>. To answer that question, he wants to link the existing air quality dataset with health and health outcome data held by his departmental colleagues. His ambition is to move from descriptive environmental analysis toward integrated, evidence-based research that can support public health understanding, policy engagement, and future intervention design.</p>
+<p>The case places participants in the role of Jean Paul and his wider research team. Their task is to develop a research strategy that will allow the group to expand from air quality analysis into cross-disciplinary work on air quality and health outcomes while dealing with the practical, ethical, and methodological challenges involved in combining environmental and health data.</p>
+</section>
+<section id="suggested-research-group-name" class="level2" data-number="15.2">
+<h2 data-number="15.2" class="anchored" data-anchor-id="suggested-research-group-name"><span class="header-section-number">15.2</span> Suggested Research Group Name</h2>
+<p>Jean Paul’s research group is called the <strong>AeroHealth Evidence Lab (AHEL)</strong>.</p>
+<p>The name reflects the group’s focus on: - <strong>Aero</strong>: air quality, pollution, and environmental exposure; - <strong>Health</strong>: health impacts and outcomes; - <strong>Evidence</strong>: rigorous, data-driven analysis; - <strong>Lab</strong>: collaborative, interdisciplinary research design.</p>
+</section>
+<section id="organizational-background" class="level2" data-number="15.3">
+<h2 data-number="15.3" class="anchored" data-anchor-id="organizational-background"><span class="header-section-number">15.3</span> Organizational Background</h2>
+<p>Caledonia University is a large, research-intensive institution with multiple departments and affiliated research centres. Within the Department of Health and Environment, the culture is highly collaborative but methodologically diverse. Some teams focus on epidemiology and population health, others on environmental monitoring, geospatial analysis, urban systems, or policy evaluation.</p>
+<p>The department has a history of producing respected research, securing external grants, and contributing to public debate. However, like many universities, it also operates within separate data, ethics, and disciplinary silos. Research units often manage their own datasets, technical approaches, and publication priorities. As a result, promising opportunities for integration can be slowed by different data standards, different analytical methods, and different expectations around ownership and collaboration.</p>
+<p>Jean Paul’s team has already demonstrated that it can generate valuable environmental intelligence. The next stage of the work requires close partnership with colleagues who hold or manage health-related data. That shift introduces both opportunity and complexity.</p>
+</section>
+<section id="jean-pauls-role" class="level2" data-number="15.4">
+<h2 data-number="15.4" class="anchored" data-anchor-id="jean-pauls-role"><span class="header-section-number">15.4</span> Jean Paul’s Role</h2>
+<p>Jean Paul is an experienced academic who has built his career around the intersection of environmental science and data-driven policy relevance. He is respected for his technical competence, his ability to work across disciplines, and his skill in turning raw data into policy-relevant insight.</p>
+<p>He leads a small team of researchers who have spent the past five years building and refining the air quality project. The team includes staff with skills in sensor data management, statistical analysis, geospatial mapping, and field coordination. Their work has established a strong foundation, but Jean Paul believes the project’s real value will be unlocked only when it is linked to health evidence.</p>
+<p>His vision is to evolve the current work into a broader research program that can: - connect environmental exposure to health outcomes, - identify populations most at risk, - produce stronger evidence for policy and prevention, - and position the university as a leader in translational environmental health research.</p>
+<p>Jean Paul is aware that this shift will not happen through technical analysis alone. It will require collaboration, data governance, ethics approval, stakeholder alignment, and a carefully designed research roadmap.</p>
+</section>
+<section id="current-research-foundation" class="level2" data-number="15.5">
+<h2 data-number="15.5" class="anchored" data-anchor-id="current-research-foundation"><span class="header-section-number">15.5</span> Current Research Foundation</h2>
+<section id="air-quality-monitoring-network" class="level3" data-number="15.5.1">
+<h3 data-number="15.5.1" class="anchored" data-anchor-id="air-quality-monitoring-network"><span class="header-section-number">15.5.1</span> Air Quality Monitoring Network</h3>
+<p>Jean Paul’s team has spent five years collecting air quality logs through a distributed network of sensors placed at strategic locations throughout the study area. The network captures temporal and spatial variation in pollution levels across neighbourhoods, road corridors, industrial zones, and mixed-use areas.</p>
+<p>The sensor network has allowed the team to build a substantial environmental dataset with information such as: - pollutant concentration trends over time; - hourly, daily, and seasonal changes in air quality; - geographic hotspots and low-exposure zones; - and correlations between pollution levels and nearby activity patterns.</p>
+<p>This data has become a core research asset. It provides a detailed picture of environmental exposure and allows the team to move beyond anecdotal observations.</p>
+</section>
+<section id="area-based-determinants-of-air-quality" class="level3" data-number="15.5.2">
+<h3 data-number="15.5.2" class="anchored" data-anchor-id="area-based-determinants-of-air-quality"><span class="header-section-number">15.5.2</span> Area-Based Determinants of Air Quality</h3>
+<p>In addition to sensor logs, the team has collected contextual data on: - vehicular traffic intensity, - road density and traffic corridors, - factory and industrial plant locations, - land-use patterns, - and area characteristics that may influence pollution levels.</p>
+<p>This has enabled the team to identify likely determinants of poor air quality and to describe the structural and spatial factors associated with pollution variation. The research has been useful, but largely environmental in scope. It explains where pollution may be concentrated and why, but not yet what those exposure patterns mean for health.</p>
+</section>
+</section>
+<section id="strategic-research-opportunity" class="level2" data-number="15.6">
+<h2 data-number="15.6" class="anchored" data-anchor-id="strategic-research-opportunity"><span class="header-section-number">15.6</span> Strategic Research Opportunity</h2>
+<p>Jean Paul believes the next phase of research should examine the relationship between poor air quality and poor health outcomes. He sees an opportunity to create an integrated dataset that combines environmental exposure measures with health data held by colleagues in the department or affiliated research groups.</p>
+<p>This would allow the research unit to explore questions such as: - Are areas with persistently poor air quality also associated with worse health outcomes? - Which population groups are most affected? - Are there seasonal or lagged relationships between pollution episodes and health events? - Do exposure patterns differ by neighbourhood, age group, or socioeconomic context? - Can the research identify thresholds or clusters of risk that are useful for policy or intervention design?</p>
+<p>Jean Paul’s ambition is to move the research team from environmental observation to <strong>health-relevant evidence generation</strong>. He wants the group to produce work that is scientifically rigorous, policy-relevant, and capable of supporting public health action.</p>
+</section>
+<section id="strategic-problem-statement" class="level2" data-number="15.7">
+<h2 data-number="15.7" class="anchored" data-anchor-id="strategic-problem-statement"><span class="header-section-number">15.7</span> Strategic Problem Statement</h2>
+<p>The challenge is to develop a research strategy that enables the AeroHealth Evidence Lab to combine air quality and health datasets in a way that is methodologically sound, ethically approved, and operationally feasible. The key strategic question is how to design a research program that uses existing environmental evidence as a foundation for cross-disciplinary health analysis without compromising data quality, privacy, or scientific integrity.</p>
+</section>
+<section id="why-this-is-an-important-next-step" class="level2" data-number="15.8">
+<h2 data-number="15.8" class="anchored" data-anchor-id="why-this-is-an-important-next-step"><span class="header-section-number">15.8</span> Why This Is an Important Next Step</h2>
+<p>The current research has already answered useful questions about pollution patterns and environmental determinants. However, the policy value of air quality research increases significantly when it can be linked to outcomes that matter directly to people’s lives.</p>
+<p>By connecting exposure data with health outcomes, Jean Paul’s team could: - strengthen the case for environmental intervention; - identify vulnerable populations or locations; - contribute to hospital, public health, or municipal planning; - produce more publishable and impactful interdisciplinary research; - and help translate academic findings into real-world action.</p>
+<p>In short, the team would shift from describing a problem to demonstrating its consequences.</p>
+</section>
+<section id="research-and-operational-challenges" class="level2" data-number="15.9">
+<h2 data-number="15.9" class="anchored" data-anchor-id="research-and-operational-challenges"><span class="header-section-number">15.9</span> Research and Operational Challenges</h2>
+<section id="data-integration" class="level3" data-number="15.9.1">
+<h3 data-number="15.9.1" class="anchored" data-anchor-id="data-integration"><span class="header-section-number">15.9.1</span> Data Integration</h3>
+<p>The first major challenge is combining datasets that were originally collected for different purposes. Air quality logs, traffic data, industrial location data, and health records may differ in structure, scale, time period, geographic resolution, and quality. The research team will need to determine whether the datasets can be aligned meaningfully and what common identifiers or geospatial frameworks can support linkage.</p>
+</section>
+<section id="data-governance-and-access" class="level3" data-number="15.9.2">
+<h3 data-number="15.9.2" class="anchored" data-anchor-id="data-governance-and-access"><span class="header-section-number">15.9.2</span> Data Governance and Access</h3>
+<p>Health data is likely to be sensitive and subject to strict access requirements. Even within a university, the team will need to establish who can access which data, under what permissions, and for what purpose. Ethical approval, confidentiality protections, and institutional data-sharing agreements will be essential.</p>
+</section>
+<section id="methodological-fit" class="level3" data-number="15.9.3">
+<h3 data-number="15.9.3" class="anchored" data-anchor-id="methodological-fit"><span class="header-section-number">15.9.3</span> Methodological Fit</h3>
+<p>Environmental exposure data and health outcome data often require careful methodological design. The team will need to decide whether the research will be ecological, geospatial, longitudinal, case-control, or some hybrid model. It will also need to address confounders, bias, temporal lag effects, and the challenge of inferring association versus causation.</p>
+</section>
+<section id="interdisciplinary-collaboration" class="level3" data-number="15.9.4">
+<h3 data-number="15.9.4" class="anchored" data-anchor-id="interdisciplinary-collaboration"><span class="header-section-number">15.9.4</span> Interdisciplinary Collaboration</h3>
+<p>The research is inherently cross-disciplinary. It will require collaboration between environmental scientists, epidemiologists, public health researchers, statisticians, geospatial analysts, and possibly data governance experts. Each discipline may have its own language, priorities, and standards of evidence.</p>
+</section>
+<section id="resource-and-time-constraints" class="level3" data-number="15.9.5">
+<h3 data-number="15.9.5" class="anchored" data-anchor-id="resource-and-time-constraints"><span class="header-section-number">15.9.5</span> Resource and Time Constraints</h3>
+<p>Jean Paul’s team is small. That means the project must be realistic in scope and sequenced carefully. A strong research plan will need to identify what can be done immediately, what requires formal approval or partnership, and what may be better suited to a longer-term program.</p>
+</section>
+</section>
+<section id="opportunities-for-expansion" class="level2" data-number="15.10">
+<h2 data-number="15.10" class="anchored" data-anchor-id="opportunities-for-expansion"><span class="header-section-number">15.10</span> Opportunities for Expansion</h2>
+<p>Jean Paul sees three major opportunities for the research unit.</p>
+<section id="build-an-integrated-exposure-health-research-platform" class="level3" data-number="15.10.1">
+<h3 data-number="15.10.1" class="anchored" data-anchor-id="build-an-integrated-exposure-health-research-platform"><span class="header-section-number">15.10.1</span> 1. Build an integrated exposure-health research platform</h3>
+<p>The team could establish a structured research environment that brings together air quality data, geospatial exposure variables, and health outcome datasets in a repeatable analytical framework. This would support not only one study, but a pipeline of future studies.</p>
+</section>
+<section id="generate-evidence-for-targeted-public-health-action" class="level3" data-number="15.10.2">
+<h3 data-number="15.10.2" class="anchored" data-anchor-id="generate-evidence-for-targeted-public-health-action"><span class="header-section-number">15.10.2</span> 2. Generate evidence for targeted public health action</h3>
+<p>By identifying where and when poor air quality overlaps with poor health outcomes, the research could inform targeted interventions, local public health responses, or community awareness initiatives.</p>
+</section>
+<section id="position-the-unit-as-an-interdisciplinary-leader" class="level3" data-number="15.10.3">
+<h3 data-number="15.10.3" class="anchored" data-anchor-id="position-the-unit-as-an-interdisciplinary-leader"><span class="header-section-number">15.10.3</span> 3. Position the unit as an interdisciplinary leader</h3>
+<p>A successful program would strengthen the profile of the AeroHealth Evidence Lab and the department more broadly. It could support grant applications, publications, conference presentations, and partnerships with external agencies.</p>
+</section>
+</section>
+<section id="operating-constraints" class="level2" data-number="15.11">
+<h2 data-number="15.11" class="anchored" data-anchor-id="operating-constraints"><span class="header-section-number">15.11</span> Operating Constraints</h2>
+<p>Any research plan must account for the realities of the university environment.</p>
+<p>The first constraint is <strong>ethical and legal compliance</strong>. Health data must be handled with care, and any linkage must respect consent, confidentiality, and institutional requirements.</p>
+<p>The second constraint is <strong>data compatibility</strong>. Datasets may not use the same spatial boundaries, time intervals, or coding conventions.</p>
+<p>The third constraint is <strong>team capacity</strong>. Jean Paul’s team is small, so the project must not depend on overly ambitious manual data cleaning or complex custom infrastructure unless support is available.</p>
+<p>The fourth constraint is <strong>disciplinary alignment</strong>. Colleagues in the health unit may have different research priorities, timelines, or publication expectations.</p>
+<p>The fifth constraint is <strong>research credibility</strong>. Because the project may inform public interest or policy debates, the design must be robust enough to withstand scrutiny from peer reviewers, institutional review boards, and external stakeholders.</p>
+</section>
+<section id="stakeholder-landscape" class="level2" data-number="15.12">
+<h2 data-number="15.12" class="anchored" data-anchor-id="stakeholder-landscape"><span class="header-section-number">15.12</span> Stakeholder Landscape</h2>
+<p>A successful research strategy will require cooperation from several stakeholder groups.</p>
+<p><strong>Jean Paul and the AeroHealth Evidence Lab</strong> want to expand the research program and increase its relevance and impact.</p>
+<p><strong>Departmental colleagues in health research</strong> hold valuable outcome data and methodological expertise.</p>
+<p><strong>University ethics and governance bodies</strong> need assurance that the project handles sensitive data appropriately.</p>
+<p><strong>Data or IT support teams</strong> may need to assist with storage, access control, and secure analysis environments.</p>
+<p><strong>External research partners or public agencies</strong> may become important later if the work expands into policy engagement or applied health analysis.</p>
+<p><strong>Funding bodies</strong> are likely to favour projects that demonstrate interdisciplinary value, methodological rigour, and social relevance.</p>
+</section>
+<section id="jean-pauls-vision" class="level2" data-number="15.13">
+<h2 data-number="15.13" class="anchored" data-anchor-id="jean-pauls-vision"><span class="header-section-number">15.13</span> Jean Paul’s Vision</h2>
+<p>Jean Paul wants the AeroHealth Evidence Lab to evolve into a stronger interdisciplinary research unit that can connect environmental exposure to health outcomes in a meaningful way.</p>
+<p>His vision includes: 1. <strong>A robust linked dataset</strong> combining air quality, environmental determinants, and health outcomes. 2. <strong>A clear research agenda</strong> focused on identifying associations, patterns, and at-risk populations. 3. <strong>A collaborative model</strong> that draws on the strengths of health and environment researchers across the department. 4. <strong>A stronger external profile</strong> through publications, presentations, and research partnerships. 5. <strong>Evidence that can support policy and public health action</strong> in the future.</p>
+<p>He is not looking for a one-off study. He wants to build a durable research capability.</p>
+</section>
+<section id="expectations-for-the-research-planning-exercise" class="level2" data-number="15.14">
+<h2 data-number="15.14" class="anchored" data-anchor-id="expectations-for-the-research-planning-exercise"><span class="header-section-number">15.14</span> Expectations for the Research Planning Exercise</h2>
+<p>Participants should assume that Jean Paul has a solid environmental data foundation but now needs a realistic plan for expanding into health-linked research. The task is not simply to merge datasets. It is to design a credible research strategy that accounts for data access, ethics, methods, collaboration, and dissemination.</p>
+<p>A strong research plan is likely to address: - the specific research questions to be pursued; - which health datasets are relevant and how they will be accessed; - how environmental and health data will be linked; - the analytical approach and study design; - ethical and governance requirements; - collaboration roles across departments; - the timeline and sequencing of work; - and the outputs expected from the project.</p>
+<p>The plan should also define how success will be measured, such as whether the team can secure data access, complete a pilot linkage, produce a publishable analysis, or establish a scalable research platform.</p>
+</section>
+<section id="discussion-questions" class="level2" data-number="15.15">
+<h2 data-number="15.15" class="anchored" data-anchor-id="discussion-questions"><span class="header-section-number">15.15</span> Discussion Questions</h2>
+<ol type="1">
+<li>What should Jean Paul prioritize in the first 90 days?</li>
+<li>Which health outcomes would be the most appropriate starting point for linked analysis?</li>
+<li>What data governance and ethics issues are likely to arise?</li>
+<li>How can the team ensure the environmental and health datasets are compatible?</li>
+<li>What research design would best support the team’s objectives?</li>
+<li>How can Jean Paul build collaboration with departmental colleagues who hold health data?</li>
+<li>What would success look like after 12 months?</li>
+</ol>
+</section>
+<section id="teaching-note" class="level2" data-number="15.16">
+<h2 data-number="15.16" class="anchored" data-anchor-id="teaching-note"><span class="header-section-number">15.16</span> Teaching Note</h2>
+<p>This case is designed to test participants’ ability to develop a cross-disciplinary research strategy in a university setting. It emphasizes collaboration, ethics, data linkage, and the shift from environmental description to health-oriented evidence generation.</p>
+<p>Participants should avoid treating the problem as purely technical. The strongest responses will address research design, institutional partnerships, governance, and the practical realities of academic work.</p>
+</section>
+<section id="conclusion" class="level2" data-number="15.17">
+<h2 data-number="15.17" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">15.17</span> Conclusion</h2>
+<p>Jean Paul and the AeroHealth Evidence Lab have already built an important foundation through five years of air quality research. The next step is to connect that evidence to health outcomes so that the work becomes more powerful, more relevant, and more impactful.</p>
+<p>The challenge is to create a research strategy that enables this transition while respecting the complexity of health data, the constraints of academic collaboration, and the standards required for credible interdisciplinary research. The task for the planning team is to turn that ambition into a practical and defensible research roadmap.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./case_study_aquavolt.html" class="pagination-link" aria-label="Modernising Utility Operations at AquaVolt Wakanda">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Modernising Utility Operations at AquaVolt Wakanda</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./case_study_poverty_unit.html" class="pagination-link" aria-label="Modernising Case Work in the Poverty Alleviation Unit">
+        <span class="nav-page-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Modernising Case Work in the Poverty Alleviation Unit</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/data4decisonmakers/data-concepts-applications/edit/main/00-case-study-ahel.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
