@@ -1,5 +1,7 @@
 ---
-output-file: case_study_mozambique.html
+output-file: case-study-mozambique.html
+aliases: 
+  - case_study_mozambique.html
 ---
 
 # Governing Public Debt Data in Mozambique and Other Low- and Middle-Income Countries

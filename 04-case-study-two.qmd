@@ -1,5 +1,7 @@
 ---
-output-file: case_study_two.html
+output-file: case-study-two.html
+aliases: 
+  - case_study_two.html
 ---
 
 # Enhancing Local Governance Through Data-Driven Decision-Making in Indonesia {#sec-cs2-indonesia}

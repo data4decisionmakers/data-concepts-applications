@@ -1,5 +1,7 @@
 ---
-output-file: case_study_one.html
+output-file: case-study-one.html
+aliases: 
+  - case_study_one.html
 ---
 
 # Data use and analytics in water quality management {#sec-cs1-water-management}

@@ -1,5 +1,7 @@
 ---
-output-file: case_study_rfa.html
+output-file: case-study-rfa.html
+aliases: 
+  - case_study_rfa.html
 ---
 
 # Building a Disaster Data Sharing Partnership at Resilient Futures Alliance

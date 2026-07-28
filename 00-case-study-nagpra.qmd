@@ -1,5 +1,7 @@
 ---
-output-file: case_study_nagpra.html
+output-file: case-study-nagpra.html
+aliases: 
+  - case_study_nagpra.html
 ---
 
 # Reclaiming Authority over Indigenous Data

@@ -1,5 +1,7 @@
 ---
-output-file: case_study_aquavolt.html
+output-file: case-study-aquavolt.html
+aliases: 
+  - case_study_aquavolt.html
 ---
 
 # Modernising Utility Operations at AquaVolt Wakanda

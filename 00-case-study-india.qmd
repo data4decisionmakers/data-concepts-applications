@@ -1,5 +1,7 @@
 ---
-output-file: case_study_india.html
+output-file: case-study-india.html
+aliases: 
+  - case_study_india.html
 ---
 
 # Helping communities to gain the ability to collect and analyze their own data
