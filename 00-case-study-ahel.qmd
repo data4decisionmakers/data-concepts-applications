@@ -1,5 +1,7 @@
 ---
-output-file: case_study_poverty_ahel.html
+output-file: case-study-poverty-ahel.html
+aliases: 
+  - case_study_poverty_ahel.html
 ---
 
 # Linking Air Quality and Health Outcomes at Northbridge University

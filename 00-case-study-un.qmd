@@ -1,5 +1,7 @@
 ---
-output-file: case_study_un.html
+output-file: case-study-un.html
+aliases: 
+  - case_study_un.html
 ---
 
 # Building a Shared Technology and Data Future for the United Nations

@@ -1,5 +1,7 @@
 ---
-output-file: case_study_nrsp.html
+output-file: case-study-nrsp.html
+aliases: 
+  - case_study_nrsp.html
 ---
 
 # Governing the Northbridge Vulnerability Dashboard

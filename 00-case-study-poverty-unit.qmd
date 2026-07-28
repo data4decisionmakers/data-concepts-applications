@@ -1,5 +1,7 @@
 ---
-output-file: case_study_poverty_unit.html
+output-file: case-study-poverty-unit.html
+aliases: 
+  - case_study_poverty_unit.html
 ---
 
 # Modernising Case Work in the Poverty Alleviation Unit
